@@ -1,0 +1,17 @@
+{
+  "observacao": "Parâmetros de triagem copiados sem alteração da seção \"triagem\" de protocolo.json (mapeamento amplo v2), lidos por triagem.cs na execução focada; os argumentos de linha de comando registrados no README sobrescrevem registros_por_requisicao e limite_creditos.",
+  "triagem": {
+    "lotes_nucleo": 10,
+    "lotes_contexto": 12,
+    "regex_titulo_sem_resumo": "memor|forget|state|json|schema|diffusion|small language|slm",
+    "max_caracteres_resumo": 1100,
+    "registros_por_requisicao": 20,
+    "llm": {
+      "politica_modelo": "somente os modelos de menor preço por token listados pelo Copilot SDK (entrada + saída); empate resolvido por ordem alfabética do id",
+      "limite_creditos": 1000,
+      "tokens_saida_estimados_por_registro": 500,
+      "reserva_por_requisicao": 1.5,
+      "custo_minimo_por_requisicao": 1
+    }
+  }
+}
