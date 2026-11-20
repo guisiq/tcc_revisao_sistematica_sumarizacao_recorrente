@@ -6,7 +6,7 @@ do Trabalho de Conclusão de Curso de Guilherme Henrique Siqueira Lopes
 para auditar e reproduzir a busca: protocolo, *snapshots* das respostas da API,
 decisões da triagem, revisão final e *scripts*.
 
-**Versão v2.0.0 (vigente):** a seleção usada no artigo vem da
+**Versão v2.1.0 (vigente):** a seleção usada no artigo vem da
 [execução v4](#execução-v4-busca-por-facetas-exclusões-por-termos-e-triagem-codificada)
 (busca de 19/11/2026, triagem codificada e classes por perfil). As seções
 seguintes descrevem a execução de 12/11/2026, publicada na v1.0.0 e mantida
@@ -151,13 +151,15 @@ exclusões da execução anterior. Os parâmetros estão em
    o manifesto com SHA-256.
 3. **Etapa 2 (uma requisição por artigo, até 100 mil caracteres):** cada `S`
    exige um trecho literal. O relatório confere o trecho no texto salvo e
-   rebaixa a `I` todo `S` sem trecho encontrado; só então classifica o estudo.
+   rebaixa a `I` todo `S` sem trecho encontrado. Um C5 = S cujo trecho só
+   cita tamanhos de modelo acima de 4,5B passa a `N`. Só então o estudo é
+   classificado.
 4. **Classes por perfil:** o **núcleo** exige C1–C4 = S, C5 = S (escritor
    compacto) e C6 = S (avaliação direta do estado). Os demais estudos lidos no
    texto integral recebem uma classe própria (pendente, comparador gerativo,
    escritor compacto, avaliação do estado, memória estruturada ou excluídos),
    registrada no relatório (ver [`codigos_v4.md`](protocolo/codigos_v4.md)).
-   Resultado: 13 estudos no núcleo.
+   Resultado: 12 estudos no núcleo.
 
 Os textos integrais (`triagem_v4/textos/*.txt`) não são versionados, por
 respeito às licenças dos artigos; o manifesto com URL, versão e SHA-256 de

@@ -15,7 +15,8 @@
     "limite_creditos": 400,
     "tokens_saida_estimados": 2500,
     "tamanho_minimo_trecho": 20,
-    "tamanho_maximo_trecho": 400
+    "tamanho_maximo_trecho": 400,
+    "limite_c5_bilhoes": 4.5
   },
   "texto_integral": {
     "url_html": "https://arxiv.org/html/{id}{versao}",

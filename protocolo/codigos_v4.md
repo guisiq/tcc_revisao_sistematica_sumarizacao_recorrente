@@ -83,7 +83,11 @@ A, B e P seguem para a etapa 2 (texto integral). C, D e X encerram na etapa 1.
 **Etapa 2 — texto integral:**
 
 Cada valor `S` deve vir com um trecho literal do texto. O *script* confere o
-trecho no texto salvo; um `S` sem trecho encontrado é rebaixado a `I`.
+trecho no texto salvo; um `S` sem trecho encontrado é rebaixado a `I`. Em C5,
+o *script* também lê os tamanhos de modelo citados no trecho (por exemplo,
+`7B`, `qwen3-8b`): se houver algum e todos forem maiores que
+`limite_c5_bilhoes` (4,5, em `triagem_v4.json`), C5 passa a `N`, porque o
+trecho mostra um escritor grande.
 
 A **base** de um estudo é C1 a C4 = S. Cada estudo recebe a primeira classe,
 na ordem abaixo, cujo critério atende:

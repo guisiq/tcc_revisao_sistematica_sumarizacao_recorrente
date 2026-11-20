@@ -140,20 +140,6 @@ N1  - triagem v4: NUCLEO
 ER  - 
 
 TY  - JOUR
-TI  - MARS: Memory-Aware Routing for Session-Level LLM Assistants
-AU  - Minghan Wang
-AU  - Jinhang Zuo
-AU  - Zhongxiang Dai
-AU  - Zhiyong Wang
-AU  - Fang Kong
-PY  - 2026
-DA  - 2026-10-16
-JO  - arXiv
-UR  - https://arxiv.org/abs/2610.23583v1
-N1  - triagem v4: NUCLEO
-ER  - 
-
-TY  - JOUR
 TI  - MemRevise: A Self-Revising Memory for Conversational Search
 AU  - Mohammed Ali
 AU  - Abdelrahman Abdallah

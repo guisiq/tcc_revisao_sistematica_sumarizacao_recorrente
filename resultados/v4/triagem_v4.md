@@ -17,12 +17,12 @@ Gerado por `dotnet run scripts/triagem_v4.cs -- relatorio` a partir dos arquivos
 | P — comparador possível | 2 |
 | Texto integral obtido (A+B+P) | 189 de 189 |
 | Etapa 2 — codificados com texto integral | 189 |
-| **NUCLEO — C1–C4 = S, C5 = S e C6 = S** | **13** |
+| **NUCLEO — C1–C4 = S, C5 = S e C6 = S** | **12** |
 | PENDENTE — C5 = S e C6 = S, algum de C1–C4 = I | 2 |
 | COMPARADOR_GERATIVO — C1–C4 = S e C7 = S | 1 |
-| ESCRITOR_COMPACTO — C1–C4 = S e C5 = S, sem C6 = S | 9 |
-| AVALIACAO_ESTADO — C1–C4 = S e C6 = S, sem C5 = S | 51 |
-| MEMORIA_ESTRUTURADA — C1–C4 = S, nenhum de C5–C7 = S | 69 |
+| ESCRITOR_COMPACTO — C1–C4 = S e C5 = S, sem C6 = S | 8 |
+| AVALIACAO_ESTADO — C1–C4 = S e C6 = S, sem C5 = S | 52 |
+| MEMORIA_ESTRUTURADA — C1–C4 = S, nenhum de C5–C7 = S | 70 |
 | EXCLUIDO_AUSENCIA — código E conferido ou algum de C1–C4 = N | 8 |
 | EXCLUIDO_NAO_DEMONSTRADO — algum de C1–C4 = I, fora de PENDENTE | 36 |
 
@@ -64,7 +64,6 @@ Valores efetivos da etapa 2: `S` somente com trecho literal conferido no texto s
 | [SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue](https://arxiv.org/abs/2609.26780v2) | S | S | S | S | S | S | N | B |
 | [CoEM: Empowering Long-Context Reasoning with Commit-on-Evidence Memory](https://arxiv.org/abs/2609.36935v2) | S | S | S | S | S | S | N | B |
 | [AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control](https://arxiv.org/abs/2609.36976v2) | S | S | S | S | S | S | N | B |
-| [MARS: Memory-Aware Routing for Session-Level LLM Assistants](https://arxiv.org/abs/2610.23583v1) | S | S | S | S | S | S | N | B |
 | [MemRevise: A Self-Revising Memory for Conversational Search](https://arxiv.org/abs/2610.24672v1) | S | S | S | S | S | S | N | A |
 | [Accept Changes, Reject Attacks: Robust Memory Management for LLM Agents](https://arxiv.org/abs/2610.41056v1) | S | S | S | S | S | S | N | B |
 
@@ -72,12 +71,11 @@ Valores efetivos da etapa 2: `S` somente com trecho literal conferido no texto s
 
 Não entram na síntese; ficam registradas para o fluxograma e para consulta.
 
-| Classe | Estudo | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Motivo | Rebaixados por falta de trecho |
+| Classe | Estudo | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Motivo | Rebaixados (trecho não conferido; C5 por tamanho) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | PENDENTE | [PGMem: Tightly Coupled Persona-Memory Graph for Lifelong Personalized Agents](https://arxiv.org/abs/2608.01708v2) | S | S | S | I | S | S | N | não demonstrado: C4=I | C4 |
 | PENDENTE | [Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents](https://arxiv.org/abs/2609.33226v1) | S | S | S | I | S | S | N | não demonstrado: C4=I |  |
 | COMPARADOR_GERATIVO | [DiffuPlan: Editable Planning State for Diffusion Language Model Agents](https://arxiv.org/abs/2610.24717v1) | S | S | S | S | I | N | S |  |  |
-| ESCRITOR_COMPACTO | [MGA: Memory-Driven GUI Agent for Observation-Centric Interaction](https://arxiv.org/abs/2510.24168v3) | S | S | S | S | S | I | N |  |  |
 | ESCRITOR_COMPACTO | [Efficient On-Device Agents via Adaptive Context Management](https://arxiv.org/abs/2511.03728v2) | S | S | S | S | S | N | N |  |  |
 | ESCRITOR_COMPACTO | [MemLoRA: Distilling Expert Adapters for On-Device Memory Systems](https://arxiv.org/abs/2512.04763v1) | S | S | S | S | S | N | N |  |  |
 | ESCRITOR_COMPACTO | [MemBuilder: Reinforcing LLMs for Long-Term Memory Construction via Attributed Dense Rewards](https://arxiv.org/abs/2601.05488v4) | S | S | S | S | S | I | N |  |  |
@@ -132,6 +130,7 @@ Não entram na síntese; ficam registradas para o fluxograma e para consulta.
 | AVALIACAO_ESTADO | [TRACE: Governing Memory Validity in Evolving Multi-Agent Systems](https://arxiv.org/abs/2609.33517v1) | S | S | S | S | N | S | N |  |  |
 | AVALIACAO_ESTADO | [HGP:An on-device personalized agent memory via hybrid graph storage](https://arxiv.org/abs/2610.10071v1) | S | S | S | S | I | S | N |  |  |
 | AVALIACAO_ESTADO | [Test-Time Memory Construction](https://arxiv.org/abs/2610.13348v1) | S | S | S | S | N | S | N |  |  |
+| AVALIACAO_ESTADO | [MARS: Memory-Aware Routing for Session-Level LLM Assistants](https://arxiv.org/abs/2610.23583v1) | S | S | S | S | N | S | N |  | C5(tamanho) |
 | AVALIACAO_ESTADO | [SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory](https://arxiv.org/abs/2610.33015v1) | S | S | S | S | N | S | N |  |  |
 | AVALIACAO_ESTADO | [MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue](https://arxiv.org/abs/2611.08433v1) | S | S | S | S | N | S | N |  |  |
 | AVALIACAO_ESTADO | [TransMem: Transition-Aware Retrieval for Evolving Personal Memory](https://arxiv.org/abs/2611.10683v1) | S | S | S | S | N | S | N |  |  |
@@ -143,6 +142,7 @@ Não entram na síntese; ficam registradas para o fluxograma e para consulta.
 | MEMORIA_ESTRUTURADA | [Text2Mem: A Unified Memory Operation Language for Memory Operating System](https://arxiv.org/abs/2509.11145v2) | S | S | S | S | I | I | N |  |  |
 | MEMORIA_ESTRUTURADA | [COSMIR: Chain Orchestrated Structured Memory for Iterative Reasoning over Long Context](https://arxiv.org/abs/2510.04568v1) | S | S | S | S | N | N | N |  |  |
 | MEMORIA_ESTRUTURADA | [Learning from Supervision with Semantic and Episodic Memory: A Reflective Approach to Agent Adaptation](https://arxiv.org/abs/2510.19897v3) | S | S | S | S | N | N | N |  |  |
+| MEMORIA_ESTRUTURADA | [MGA: Memory-Driven GUI Agent for Observation-Centric Interaction](https://arxiv.org/abs/2510.24168v3) | S | S | S | S | N | I | N |  | C5(tamanho) |
 | MEMORIA_ESTRUTURADA | [ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/abs/2511.12960v2) | S | S | S | S | I | N | N |  |  |
 | MEMORIA_ESTRUTURADA | [TeleMem: Building Long-Term and Multimodal Memory for Agentic AI](https://arxiv.org/abs/2601.06037v4) | S | S | S | S | N | N | N |  |  |
 | MEMORIA_ESTRUTURADA | [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204v1) | S | S | S | S | N | I | N |  |  |
@@ -401,19 +401,6 @@ Propõe AMU, framework de controle da escrita de memória pessoal em conversas: 
 - **C4**: “AMU maintains personalized memories as structured and updateable records rather than an append-only log of user utterances.”
 - **C5**: “Qwen3.5-2B is used as the default SLM for memory management unless otherwise specified.”
 - **C6**: “Action Acc., defined as the percentage of memory-writing turns whose predicted action matches the gold action label.”
-
-### MARS: Memory-Aware Routing for Session-Level LLM Assistants
-
-`arxiv:2610.23583` · NUCLEO · texto: html (https://arxiv.org/html/2610.23583v1)
-
-Propõe MARS, que usa um estado estruturado de sessão (QTM, Qwen2.5-7B) como interface compartilhada para construir visão de memória textual e rotear modelos online (LinUCB). Avalia em RealMem e MultiChallenge com foco em custo e qualidade da memória.
-
-- **C1**: “We introduce MARS, a memory-aware routing framework that uses session state as a shared control interface between memory construction and model selection.”
-- **C2**: “A Query and Topic Manager (QTM) estimates compact decision-relevant state that guides a fixed state-conditioned memory policy and an online router”
-- **C3**: “the system estimates session state, constructs a candidate memory view, selects a model, packs the view for that model, generates a response, and updates its routing preference from turn-level feedback.”
-- **C4**: “MARS uses a Query and Topic Manager (QTM) to infer structured session state from the query, active thread, recent turns, and memory pool.”
-- **C5**: “QTM is instantiated with qwen/qwen-2.5-7b-instruct. We use this smaller instruction model because QTM does not generate final answers”
-- **C6**: “Action agreement is the fraction of inputs whose effective MATCH/NEW_TOPIC decision is unchanged after the same production parser and deterministic release logic.”
 
 ### MemRevise: A Self-Revising Memory for Conversational Search
 

@@ -462,11 +462,17 @@ static string Norm(string s)
     return Regex.Replace(sb.ToString(), " +", " ").Trim();
 }
 
+// Tamanhos de modelo em bilhões citados num trecho (ex.: "Qwen2.5-7B", "4B", "1.7 B"); ignora "8x7B".
+static List<double> TamanhosB(string? trecho) =>
+    Regex.Matches(trecho ?? "", @"(?<![\w.])(\d+(?:\.\d+)?)\s?[bB](?![A-Za-z])")
+        .Select(m => double.Parse(m.Groups[1].Value, System.Globalization.CultureInfo.InvariantCulture)).ToList();
+
 // ---------- Relatório (offline, determinístico) ----------
 int Relatorio()
 {
     var e2 = prot["etapa2"]!;
     var minTrecho = (int)e2["tamanho_minimo_trecho"]!;
+    var limiteC5 = (double)e2["limite_c5_bilhoes"]!;
     var saidaDir = Path.GetFullPath(a.Get("saida", (string)prot["resultados"]!));
     Directory.CreateDirectory(saidaDir);
     var grupos = GruposEtapa1();
@@ -488,6 +494,12 @@ int Relatorio()
         var ev = c.Caracteristicas();
         var efetivo = ev.Select(e => e!.Valor == "S" && !Confere(e.Trecho) ? "I" : e!.Valor!).ToArray();
         var rebaixados = ev.Select((e, i) => (e, i)).Where(x => x.e!.Valor == "S" && efetivo[x.i] == "I").Select(x => $"C{x.i + 1}").ToList();
+        // C5 = S cujo trecho só cita tamanhos acima do limite indica escritor grande: C5 = N.
+        if (efetivo[4] == "S")
+        {
+            var tamanhos = TamanhosB(ev[4]!.Trecho);
+            if (tamanhos.Count > 0 && tamanhos.Min() > limiteC5) { efetivo[4] = "N"; rebaixados.Add("C5(tamanho)"); }
+        }
         var excl = c.Exclusoes!.Where(x => Confere(x.Trecho)).Select(x => x.Codigo!).Distinct().OrderBy(x => x, StringComparer.Ordinal).ToList();
         var exclNaoConf = c.Exclusoes!.Where(x => !Confere(x.Trecho)).Select(x => x.Codigo!).Distinct().OrderBy(x => x, StringComparer.Ordinal).ToList();
         // Classes por perfil: o núcleo exige a base (C1–C4 = S), C5 = S e C6 = S.
@@ -585,7 +597,7 @@ int Relatorio()
 
     md.AppendLine("## Demais classes da etapa 2").AppendLine();
     md.AppendLine("Não entram na síntese; ficam registradas para o fluxograma e para consulta.").AppendLine();
-    md.AppendLine("| Classe | Estudo | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Motivo | Rebaixados por falta de trecho |").AppendLine("|---|---|---|---|---|---|---|---|---|---|---|");
+    md.AppendLine("| Classe | Estudo | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Motivo | Rebaixados (trecho não conferido; C5 por tamanho) |").AppendLine("|---|---|---|---|---|---|---|---|---|---|---|");
     var ordemClasse = ClassesV4.Lista.Select((c, i) => (c.Classe, i)).ToDictionary(x => x.Classe, x => x.i);
     foreach (var (k, f) in final.Where(kv => kv.Value.Classe != "NUCLEO").OrderBy(kv => ordemClasse[kv.Value.Classe]).ThenBy(kv => kv.Key, StringComparer.Ordinal))
         md.AppendLine($"| {f.Classe} | [{Md((string)registros[k]["title"]!)}]({(string)registros[k]["url"]!}) | {string.Join(" | ", f.Efetivo)} | {f.Motivo} | {string.Join(" ", f.Rebaixados)} |");
