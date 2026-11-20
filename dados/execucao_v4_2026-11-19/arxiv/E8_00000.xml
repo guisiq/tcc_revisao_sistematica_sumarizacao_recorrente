@@ -1,0 +1,1720 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/U/tEM+NNuB8amVLOjtMZAU3Q3kc</id>
+  <title>arXiv Query: search_query=( (ti:"structured memory" OR ti:"structured memories" OR ti:"structured contextual memory" OR ti:"memory schema" OR ti:"typed memory" OR ti:"memory graph" OR ti:"graph memory" OR ti:"graph-based memory" OR ti:"JSON memory" OR ti:"memory template" OR ti:"memory records" OR ti:"structured state" OR ti:"entity memory" OR ti:"memory slots" OR ti:"key-value memory" OR ti:"tabular memory" OR ti:"memory table" OR ti:"memory items" OR ti:"memory units" OR ti:"atomic memory" OR ti:"memory entries" OR ti:"intention store" OR ti:"typed store" OR abs:"structured memory" OR abs:"structured memories" OR abs:"structured contextual memory" OR abs:"memory schema" OR abs:"typed memory" OR abs:"memory graph" OR abs:"graph memory" OR abs:"graph-based memory" OR abs:"JSON memory" OR abs:"memory template" OR abs:"memory records" OR abs:"structured state" OR abs:"entity memory" OR abs:"memory slots" OR abs:"key-value memory" OR abs:"tabular memory" OR abs:"memory table" OR abs:"memory items" OR abs:"memory units" OR abs:"atomic memory" OR abs:"memory entries" OR abs:"intention store" OR abs:"typed store") AND (ti:"memory update" OR ti:"memory updating" OR ti:"update memory" OR ti:"updating memory" OR ti:"memory evolution" OR ti:"evolving memory" OR ti:"memory maintenance" OR ti:"memory consolidation" OR ti:"memory editing" OR ti:"memory operations" OR ti:"memory management" OR ti:"memory manager" OR ti:"memory writing" OR ti:"write memory" OR ti:"memory revision" OR ti:"self-maintained memory" OR ti:"knowledge update" OR ti:"memory extraction" OR ti:"memory construction" OR ti:"memory admission" OR abs:"memory update" OR abs:"memory updating" OR abs:"update memory" OR abs:"updating memory" OR abs:"memory evolution" OR abs:"evolving memory" OR abs:"memory maintenance" OR abs:"memory consolidation" OR abs:"memory editing" OR abs:"memory operations" OR abs:"memory management" OR abs:"memory manager" OR abs:"memory writing" OR abs:"write memory" OR abs:"memory revision" OR abs:"self-maintained memory" OR abs:"knowledge update" OR abs:"memory extraction" OR abs:"memory construction" OR abs:"memory admission") AND (ti:benchmark OR ti:benchmarks OR ti:"evaluation framework" OR ti:lifecycle OR abs:benchmark OR abs:benchmarks OR abs:"evaluation framework" OR abs:lifecycle) ) AND submittedDate:"202507010000 TO 202611192359"&amp;id_list=&amp;start=0&amp;max_results=1000</title>
+  <updated>2026-11-19T22:03:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=((ti:%22structured+memory%22+OR+(ti:%22structured+memories%22+OR+(ti:%22structured+contextual+memory%22+OR+(ti:%22memory+schema%22+OR+(ti:%22typed+memory%22+OR+(ti:%22memory+graph%22+OR+(ti:%22graph+memory%22+OR+(ti:%22graph-based+memory%22+OR+(ti:%22JSON+memory%22+OR+(ti:%22memory+template%22+OR+(ti:%22memory+records%22+OR+(ti:%22structured+state%22+OR+(ti:%22entity+memory%22+OR+(ti:%22memory+slots%22+OR+(ti:%22key-value+memory%22+OR+(ti:%22tabular+memory%22+OR+(ti:%22memory+table%22+OR+(ti:%22memory+items%22+OR+(ti:%22memory+units%22+OR+(ti:%22atomic+memory%22+OR+(ti:%22memory+entries%22+OR+(ti:%22intention+store%22+OR+(ti:%22typed+store%22+OR+(abs:%22structured+memory%22+OR+(abs:%22structured+memories%22+OR+(abs:%22structured+contextual+memory%22+OR+(abs:%22memory+schema%22+OR+(abs:%22typed+memory%22+OR+(abs:%22memory+graph%22+OR+(abs:%22graph+memory%22+OR+(abs:%22graph-based+memory%22+OR+(abs:%22JSON+memory%22+OR+(abs:%22memory+template%22+OR+(abs:%22memory+records%22+OR+(abs:%22structured+state%22+OR+(abs:%22entity+memory%22+OR+(abs:%22memory+slots%22+OR+(abs:%22key-value+memory%22+OR+(abs:%22tabular+memory%22+OR+(abs:%22memory+table%22+OR+(abs:%22memory+items%22+OR+(abs:%22memory+units%22+OR+(abs:%22atomic+memory%22+OR+(abs:%22memory+entries%22+OR+(abs:%22intention+store%22+OR+abs:%22typed+store%22)))))))))))))))))))))))))))))))))))))))))))))+AND+((ti:%22memory+update%22+OR+(ti:%22memory+updating%22+OR+(ti:%22update+memory%22+OR+(ti:%22updating+memory%22+OR+(ti:%22memory+evolution%22+OR+(ti:%22evolving+memory%22+OR+(ti:%22memory+maintenance%22+OR+(ti:%22memory+consolidation%22+OR+(ti:%22memory+editing%22+OR+(ti:%22memory+operations%22+OR+(ti:%22memory+management%22+OR+(ti:%22memory+manager%22+OR+(ti:%22memory+writing%22+OR+(ti:%22write+memory%22+OR+(ti:%22memory+revision%22+OR+(ti:%22self-maintained+memory%22+OR+(ti:%22knowledge+update%22+OR+(ti:%22memory+extraction%22+OR+(ti:%22memory+construction%22+OR+(ti:%22memory+admission%22+OR+(abs:%22memory+update%22+OR+(abs:%22memory+updating%22+OR+(abs:%22update+memory%22+OR+(abs:%22updating+memory%22+OR+(abs:%22memory+evolution%22+OR+(abs:%22evolving+memory%22+OR+(abs:%22memory+maintenance%22+OR+(abs:%22memory+consolidation%22+OR+(abs:%22memory+editing%22+OR+(abs:%22memory+operations%22+OR+(abs:%22memory+management%22+OR+(abs:%22memory+manager%22+OR+(abs:%22memory+writing%22+OR+(abs:%22write+memory%22+OR+(abs:%22memory+revision%22+OR+(abs:%22self-maintained+memory%22+OR+(abs:%22knowledge+update%22+OR+(abs:%22memory+extraction%22+OR+(abs:%22memory+construction%22+OR+abs:%22memory+admission%22)))))))))))))))))))))))))))))))))))))))+AND+(ti:benchmark+OR+(ti:benchmarks+OR+(ti:%22evaluation+framework%22+OR+(ti:lifecycle+OR+(abs:benchmark+OR+(abs:benchmarks+OR+(abs:%22evaluation+framework%22+OR+abs:lifecycle)))))))))+AND+submittedDate:%22202507010000+TO+202611192359%22&amp;start=0&amp;max_results=1000&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1000</opensearch:itemsPerPage>
+  <opensearch:totalResults>55</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.04439v3</id>
+    <title>ArcMemo: Abstract Reasoning Composition with Lifelong LLM Memory</title>
+    <updated>2025-10-04T00:01:09Z</updated>
+    <link href="https://arxiv.org/abs/2509.04439v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.04439v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While inference-time scaling enables LLMs to carry out increasingly long and capable reasoning traces, the patterns and insights uncovered during these traces are immediately discarded once the context window is reset for a new query. External memory is a natural way to persist these discoveries, and recent work has shown clear benefits for reasoning-intensive tasks. We see an opportunity to make such memories more broadly reusable and scalable by moving beyond instance-based memory entries (e.g. exact query/response pairs, or summaries tightly coupled with the original problem context) toward concept-level memory: reusable, modular abstractions distilled from solution traces and stored in natural language. For future queries, relevant concepts are selectively retrieved and integrated into the prompt, enabling test-time continual learning without weight updates. Our design introduces new strategies for abstracting takeaways from rollouts and retrieving entries for new queries, promoting reuse and allowing memory to expand with additional experiences. We evaluate on ARC-AGI, a benchmark that stresses compositional generalization and abstract reasoning, making it a natural fit for concept memory. Our method yields a 7.5% relative gain over a strong no-memory baseline with performance continuing to scale with inference compute. We find abstract concepts to be the most consistent memory design, outscoring the baseline at all tested inference compute scales. Moreover, dynamically updating memory during test-time outperforms fixed settings, supporting the hypothesis that accumulating and abstracting patterns enables further solutions in a form of self-improvement. Code is available at https://github.com/matt-seb-ho/arc_memo.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-04T17:54:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Matthew Ho</name>
+    </author>
+    <author>
+      <name>Chen Si</name>
+    </author>
+    <author>
+      <name>Zhaoxiang Feng</name>
+    </author>
+    <author>
+      <name>Fangxu Yu</name>
+    </author>
+    <author>
+      <name>Yichi Yang</name>
+    </author>
+    <author>
+      <name>Zhijian Liu</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Lianhui Qin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12027v1</id>
+    <title>GCAgent: Long-Video Understanding via Schematic and Narrative Episodic Memory</title>
+    <updated>2025-11-15T04:29:00Z</updated>
+    <link href="https://arxiv.org/abs/2511.12027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-video understanding remains a significant challenge for Multimodal Large Language Models (MLLMs) due to inherent token limitations and the complexity of capturing long-term temporal dependencies. Existing methods often fail to capture the global context and complex event relationships necessary for deep video reasoning. To address this, we introduce GCAgent, a novel Global-Context-Aware Agent framework that achieves comprehensive long-video understanding. Our core innovation is the Schematic and Narrative Episodic Memory. This memory structurally models events and their causal and temporal relations into a concise, organized context, fundamentally resolving the long-term dependency problem. Operating in a multi-stage Perception-Action-Reflection cycle, our GCAgent utilizes a Memory Manager to retrieve relevant episodic context for robust, context-aware inference. Extensive experiments confirm that GCAgent significantly enhances long-video understanding, achieving up to 23.5\% accuracy improvement on the Video-MME Long split over a strong MLLM baseline. Furthermore, our framework establishes state-of-the-art performance among comparable 7B-scale MLLMs, achieving 73.4\% accuracy on the Long split and the highest overall average (71.9\%) on the Video-MME benchmark, validating our agent-based reasoning paradigm and structured memory for cognitively-inspired long-video understanding.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-15T04:29:00Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jeong Hun Yeo</name>
+    </author>
+    <author>
+      <name>Sangyun Chung</name>
+    </author>
+    <author>
+      <name>Sungjune Park</name>
+    </author>
+    <author>
+      <name>Dae Hoe Kim</name>
+    </author>
+    <author>
+      <name>Jinyoung Moon</name>
+    </author>
+    <author>
+      <name>Yong Man Ro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12960v2</id>
+    <title>ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents</title>
+    <updated>2026-02-03T01:07:09Z</updated>
+    <link href="https://arxiv.org/abs/2511.12960v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12960v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) deployed in user-facing applications require long-horizon consistency: the ability to remember prior interactions, respect user preferences, and ground reasoning in past events. However, contemporary memory systems often adopt complex architectures such as knowledge graphs, multi-stage retrieval pipelines, and OS-style schedulers, which introduce engineering complexity and reproducibility challenges. We present ENGRAM, a lightweight memory system that organizes conversation into three canonical memory types (episodic, semantic, and procedural) through a single router and retriever. Each user turn is converted into typed memory records with normalized schemas and embeddings and stored in a database. At query time, the system retrieves top-k dense neighbors for each type, merges results with simple set operations, and provides the most relevant evidence as context to the model. ENGRAM attains state-of-the-art results on LoCoMo, a multi-session conversational QA benchmark for long-horizon memory, and exceeds the full-context baseline by 15 points on LongMemEval while using only about 1% of the tokens. These results show that careful memory typing and straightforward dense retrieval can enable effective long-term memory management in language models without requiring complex architectures.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-17T04:39:16Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Daivik Patel</name>
+    </author>
+    <author>
+      <name>Shrenik Patel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06037v4</id>
+    <title>TeleMem: Building Long-Term and Multimodal Memory for Agentic AI</title>
+    <updated>2026-01-22T13:48:29Z</updated>
+    <link href="https://arxiv.org/abs/2601.06037v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06037v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) excel at many NLP tasks but struggle to sustain long-term interactions due to limited attention over extended dialogue histories. Retrieval-augmented generation (RAG) mitigates this issue but lacks reliable mechanisms for updating or refining stored memories, leading to schema-driven hallucinations, inefficient write operations, and minimal support for multimodal reasoning.To address these challenges, we propose TeleMem, a unified long-term and multimodal memory system that maintains coherent user profiles through narrative dynamic extraction, ensuring that only dialogue-grounded information is preserved. TeleMem further introduces a structured writing pipeline that batches, retrieves, clusters, and consolidates memory entries, substantially improving storage efficiency, reducing token usage, and accelerating memory operations. Additionally, a multimodal memory module combined with ReAct-style reasoning equips the system with a closed-loop observe, think, and act process that enables accurate understanding of complex video content in long-term contexts. Experimental results show that TeleMem surpasses the state-of-the-art Mem0 baseline with 19% higher accuracy, 43% fewer tokens, and a 2.1x speedup on the ZH-4O long-term role-play gaming benchmark.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-12T11:24:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chunliang Chen</name>
+    </author>
+    <author>
+      <name>Ming Guan</name>
+    </author>
+    <author>
+      <name>Xiao Lin</name>
+    </author>
+    <author>
+      <name>Jiaxu Li</name>
+    </author>
+    <author>
+      <name>Luxi Lin</name>
+    </author>
+    <author>
+      <name>Qiyi Wang</name>
+    </author>
+    <author>
+      <name>Xiangyu Chen</name>
+    </author>
+    <author>
+      <name>Jixiang Luo</name>
+    </author>
+    <author>
+      <name>Changzhi Sun</name>
+    </author>
+    <author>
+      <name>Dell Zhang</name>
+    </author>
+    <author>
+      <name>Xuelong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08323v3</id>
+    <title>AtomMem : Learnable Dynamic Agentic Memory with Atomic Memory Operation</title>
+    <updated>2026-03-27T03:26:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.08323v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08323v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equipping agents with memory is essential for solving real-world long-horizon problems. However, most existing agent memory mechanisms rely on static and hand-crafted workflows. This limits the performance and generalization ability of these memory designs, which highlights the need for a more flexible, learning-based memory framework. In this paper, we propose AtomMem, which reframes memory management as a dynamic decision-making problem. We deconstruct high-level memory processes into fundamental atomic CRUD (Create, Read, Update, Delete) operations, transforming the memory workflow into a learnable decision process. By combining supervised fine-tuning with reinforcement learning, AtomMem learns an autonomous, task-aligned policy to orchestrate memory behaviors tailored to specific task demands. Experimental results across 3 long-context benchmarks demonstrate that the trained AtomMem-8B consistently outperforms prior static-workflow memory methods. Further analysis of training dynamics shows that our learning-based formulation enables the agent to discover structured, task-aligned memory management strategies, highlighting a key advantage over predefined routines.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T08:22:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yupeng Huo</name>
+    </author>
+    <author>
+      <name>Yaxi Lu</name>
+    </author>
+    <author>
+      <name>Zhong Zhang</name>
+    </author>
+    <author>
+      <name>Haotian Chen</name>
+    </author>
+    <author>
+      <name>Yankai Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08816v3</id>
+    <title>MemRec: Collaborative Memory-Augmented Agentic Recommender System</title>
+    <updated>2026-04-28T05:13:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.08816v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08816v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of recommender systems has shifted from traditional collaborative filtering to LLM-based agentic systems, which rely on semantic user and item memories to make predictions. However, existing agents maintain these memories in isolation. This overlooks crucial collaborative signals, such as user-item co-engagements and peer relationships across the community, which significantly limits their ability to uncover hidden preferences and accurately infer user needs, particularly for data-sparse users. To bridge this gap, we introduce collaborative memory, a paradigm that connects isolated semantics to enable the sharing of relational insights. Yet, naively utilizing collaborative memory causes severe context overload and introduces noise to downstream LLMs, alongside prohibitive computational costs. To resolve this, we propose MemRec, a framework that architecturally decouples memory management from reasoning. MemRec introduces a dedicated, lightweight language model (LM_Mem) to efficiently manage and synthesize a dynamic collaborative memory graph in the background. It provides only distilled, high-signal contexts to a downstream, heavyweight large language model (LLM_Rec) for the final recommendation. Extensive experiments on four benchmarks demonstrate that MemRec achieves state-of-the-art performance. Code: https://github.com/rutgerswiselab/memrec and Homepage: https://memrec.weixinchen.com/</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T18:51:16Z</published>
+    <arxiv:comment>Accepted at ACL 2026 Main Conference</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Weixin Chen</name>
+    </author>
+    <author>
+      <name>Yuhan Zhao</name>
+    </author>
+    <author>
+      <name>Jingyuan Huang</name>
+    </author>
+    <author>
+      <name>Zihe Ye</name>
+    </author>
+    <author>
+      <name>Clark Mingxuan Ju</name>
+    </author>
+    <author>
+      <name>Tong Zhao</name>
+    </author>
+    <author>
+      <name>Neil Shah</name>
+    </author>
+    <author>
+      <name>Li Chen</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15311v3</id>
+    <title>Aeon: High-Performance Neuro-Symbolic Memory Management for Long-Horizon LLM Agents</title>
+    <updated>2026-02-17T15:21:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.15311v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15311v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are fundamentally constrained by the quadratic computational cost of self-attention and the "Lost in the Middle" phenomenon, where reasoning capabilities degrade as context windows expand. Existing solutions, primarily "Flat RAG" architectures relying on vector databases, treat memory as an unstructured bag of embeddings, failing to capture the hierarchical and temporal structure of long-horizon interactions. This paper presents Aeon, a Neuro-Symbolic Cognitive Operating System that redefines memory as a managed OS resource. Aeon structures memory into a Memory Palace (a spatial index implemented via Atlas, a SIMD-accelerated Page-Clustered Vector Index) and a Trace (a neuro-symbolic episodic graph). This architecture introduces three advances: (1) Symmetric INT8 Scalar Quantization, achieving 3.1x spatial compression and 5.6x math acceleration via NEON SDOT intrinsics; (2) a decoupled Write-Ahead Log (WAL) ensuring crash-recoverability with statistically negligible overhead (&lt;1%); and (3) a Sidecar Blob Arena eliminating the prior 440-character text ceiling via an append-only mmap-backed blob file with generational garbage collection. The Semantic Lookaside Buffer (SLB) exploits conversational locality to achieve sub-5us retrieval latencies, with INT8 vectors dequantized to FP32 on cache insertion to preserve L1-resident lookup performance. Benchmarks on Apple M4 Max demonstrate that the combined architecture achieves 4.70ns INT8 dot product latency, 3.09us tree traversal at 100K nodes (3.4x over FP32), and P99 read latency of 750ns under hostile 16-thread contention via epoch-based reclamation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T15:23:22Z</published>
+    <arxiv:comment>v3: Production hardening. Added INT8 quantization (5.6x dot product speedup, 3.1x compression), crash recovery via decoupled WAL (&lt;1% overhead), unlimited text storage via sidecar blob arena with generational GC, and epoch-based reclamation for lock-free reads (P99 750ns under 16-thread contention). Revised for systems engineering clarity</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mustafa Arslan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15086v1</id>
+    <title>Memory Retention Is Not Enough to Master Memory Tasks in Reinforcement Learning</title>
+    <updated>2026-01-21T15:27:23Z</updated>
+    <link href="https://arxiv.org/abs/2601.15086v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15086v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective decision-making in the real world depends on memory that is both stable and adaptive: environments change over time, and agents must retain relevant information over long horizons while also updating or overwriting outdated content when circumstances shift. Existing Reinforcement Learning (RL) benchmarks and memory-augmented agents focus primarily on retention, leaving the equally critical ability of memory rewriting largely unexplored. To address this gap, we introduce a benchmark that explicitly tests continual memory updating under partial observability, i.e. the natural setting where an agent must rely on memory rather than current observations, and use it to compare recurrent, transformer-based, and structured memory architectures. Our experiments reveal that classic recurrent models, despite their simplicity, demonstrate greater flexibility and robustness in memory rewriting tasks than modern structured memories, which succeed only under narrow conditions, and transformer-based agents, which often fail beyond trivial retention cases. These findings expose a fundamental limitation of current approaches and emphasize the necessity of memory mechanisms that balance stable retention with adaptive updating. Our work highlights this overlooked challenge, introduces benchmarks to evaluate it, and offers insights for designing future RL agents with explicit and trainable forgetting mechanisms. Code: https://quartz-admirer.github.io/Memory-Rewriting/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T15:27:23Z</published>
+    <arxiv:comment>11 pages, 6 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oleg Shchendrigin</name>
+    </author>
+    <author>
+      <name>Egor Cherepanov</name>
+    </author>
+    <author>
+      <name>Alexey K. Kovalev</name>
+    </author>
+    <author>
+      <name>Aleksandr I. Panov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19249v2</id>
+    <title>GLOVE: Global Verifier for LLM Memory-Environment Realignment</title>
+    <updated>2026-09-26T09:37:20Z</updated>
+    <link href="https://arxiv.org/abs/2601.19249v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19249v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most existing memory-enhanced Large Language Model (LLM) approaches implicitly assume that memory validity can be established either through external evaluators that provide task-specific success signals or through internal model cognition, such as reflection, for editing memory entries. However, these assumptions often break down in practical environments with dynamic drifts. We propose the Global Verifier (GLOVE), a framework that introduces a new design dimension for LLM memory systems by establishing a relative notion of truth. Through active probing to detect inconsistencies between retrieved memories and fresh observations, GLOVE enables memory-environment realignment by verifying and updating memory without access to ground-truth supervision or strong reliance on model introspection. We evaluate GLOVE on diverse benchmarks spanning web navigation, planning, and control, augmented with controlled environmental drifts that introduce non-stationarity beyond the original benchmark settings. Our results show that GLOVE substantially improves agent success rates, suggesting a robust pathway to cognitive agents capable of self-evolving.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T06:32:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xingkun Yin</name>
+    </author>
+    <author>
+      <name>Hongyang Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05665v1</id>
+    <title>Graph-based Agent Memory: Taxonomy, Techniques, and Applications</title>
+    <updated>2026-02-05T13:49:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.05665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory emerges as the core module in the Large Language Model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and self-evolution. Among diverse paradigms, graph stands out as a powerful structure for agent memory due to the intrinsic capabilities to model relational dependencies, organize hierarchical information, and support efficient retrieval. This survey presents a comprehensive review of agent memory from the graph-based perspective. First, we introduce a taxonomy of agent memory, including short-term vs. long-term memory, knowledge vs. experience memory, non-structural vs. structural memory, with an implementation view of graph-based memory. Second, according to the life cycle of agent memory, we systematically analyze the key techniques in graph-based agent memory, covering memory extraction for transforming the data into the contents, storage for organizing the data efficiently, retrieval for retrieving the relevant contents from memory to support reasoning, and evolution for updating the contents in the memory. Third, we summarize the open-sourced libraries and benchmarks that support the development and evaluation of self-evolving agent memory. We also explore diverse application scenarios. Finally, we identify critical challenges and future research directions. This survey aims to offer actionable insights to advance the development of more efficient and reliable graph-based agent memory systems. All the related resources, including research papers, open-source data, and projects, are collected for the community in https://github.com/DEEP-PolyU/Awesome-GraphMemory.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T13:49:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chang Yang</name>
+    </author>
+    <author>
+      <name>Chuang Zhou</name>
+    </author>
+    <author>
+      <name>Yilin Xiao</name>
+    </author>
+    <author>
+      <name>Su Dong</name>
+    </author>
+    <author>
+      <name>Luyao Zhuang</name>
+    </author>
+    <author>
+      <name>Yujing Zhang</name>
+    </author>
+    <author>
+      <name>Zhu Wang</name>
+    </author>
+    <author>
+      <name>Zijin Hong</name>
+    </author>
+    <author>
+      <name>Zheng Yuan</name>
+    </author>
+    <author>
+      <name>Zhishang Xiang</name>
+    </author>
+    <author>
+      <name>Shengyuan Chen</name>
+    </author>
+    <author>
+      <name>Huachi Zhou</name>
+    </author>
+    <author>
+      <name>Qinggang Zhang</name>
+    </author>
+    <author>
+      <name>Ninghao Liu</name>
+    </author>
+    <author>
+      <name>Jinsong Su</name>
+    </author>
+    <author>
+      <name>Xinrun Wang</name>
+    </author>
+    <author>
+      <name>Yi Chang</name>
+    </author>
+    <author>
+      <name>Xiao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12467v1</id>
+    <title>State dependent delay differential equations with distributed memory</title>
+    <updated>2026-02-12T22:53:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.12467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate state dependent delay differential equations with distributed memory, combining discrete state dependent delays and a convolution type memory operator. Under Lipschitz type assumptions on the delay, kernel, and nonlinear term, we establish local well posedness using a fixed point argument in a Banach space of histories. The distributed memory operator is shown to be locally Lipschitz, ensuring existence and uniqueness. As a benchmark, we analyze a logistic model with a Gamma distributed memory kernel of order two. The convolution term is reduced to a finite dimensional form, yielding an explicit characteristic equation and closed form Hopf bifurcation threshold and frequency. The results show that higher order memory kernels may induce oscillatory dynamics, unlike purely exponential memory, and provide a rigorous framework for stability and bifurcation analysis in delay systems with state dependent memory.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T22:53:05Z</published>
+    <arxiv:comment>9 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Taylan Demir</name>
+    </author>
+    <author>
+      <name>Niaz Ali Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.18493v2</id>
+    <title>Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning</title>
+    <updated>2026-09-01T09:02:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.18493v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.18493v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-context LLMs and Retrieval-Augmented Generation defer state tracking and evidence consolidation to query time, which is brittle when facts evolve and answers depend on latent states. We introduce Unified Memory Agent (UMA) for a one-to-many setting: query-agnostic external memory is constructed once from a stream and reused across multiple future QA sessions. A single policy maintains a structured Memory Bank through CRUD operations and answers using both the Memory Bank and raw context. Task-Stratified GRPO uses the mean reward of QA trajectories branching from each sampled memory state to supervise memory maintenance, while normalizing memory and per-question QA groups separately. We also introduce Ledger-QA, a diagnostic benchmark for long-horizon state tracking over accumulated updates. At the 16k budget, UMA-Generalist achieves the highest average score among compared methods across the test-time-learning and accurate-retrieval benchmarks and transfers to Ledger-QA without task-specific training; UMA-Specialist further improves long-horizon tracking after task adaptation. These results support learned proactive memory management for long-context reasoning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T16:54:23Z</published>
+    <arxiv:comment>Accepted at EMNLP 2026 Main Conference. Camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kehao Zhang</name>
+    </author>
+    <author>
+      <name>Shangtong Gui</name>
+    </author>
+    <author>
+      <name>Sheng Yang</name>
+    </author>
+    <author>
+      <name>Wei Chen</name>
+    </author>
+    <author>
+      <name>Yang Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.04443v1</id>
+    <title>AMV-L: Lifecycle-Managed Agent Memory for Tail-Latency Control in Long-Running LLM Systems</title>
+    <updated>2026-02-22T00:11:20Z</updated>
+    <link href="https://arxiv.org/abs/2603.04443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.04443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-running LLM agents require persistent memory to preserve state across interactions, yet most deployed systems manage memory with age-based retention (e.g., TTL). While TTL bounds item lifetime, it does not bound the computational footprint of memory on the request path: as retained items accumulate, retrieval candidate sets and vector similarity scans can grow unpredictably, yielding heavy-tailed latency and unstable throughput. We present AMV-L (Adaptive Memory Value Lifecycle), a memory-management framework that treats agent memory as a managed systems resource. AMV-L assigns each memory item a continuously updated utility score and uses value-driven promotion, demotion, and eviction to maintain lifecycle tiers; retrieval is restricted to a bounded, tier-aware candidate set that decouples the request-path working set from total retained memory. We implement AMV-L in a full-stack LLM serving system and evaluate it under identical long-running workloads against two baselines: TTL and an LRU working-set policy, with fixed prompt-injection caps. Relative to TTL, AMV-L improves throughput by 3.1x and reduces latency by 4.2x (median), 4.7x (p95), and 4.4x (p99), while reducing the fraction of requests exceeding 2s from 13.8% to 0.007%. Compared to LRU, AMV-L trades a small regression in median/p95 latency (+26% / +3%) for improved extreme-tail behavior (-15% p99; -98% &gt;2s) and lower token overhead (approximately 6% fewer tokens/request), while matching retrieval quality (value means within approximately 0-2%). The gains arise primarily from bounding retrieval-set size and vector-search work, not from shortening prompts. Our results show that predictable performance for long-running LLM agents requires explicit control of memory working-set size and value-driven lifecycle management, rather than retention time alone.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-22T00:11:20Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Emmanuel Bamidele</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.01331v3</id>
+    <title>MetaState: Persistent Working Memory Enhances Reasoning in Discrete Diffusion Language Models</title>
+    <updated>2026-07-10T20:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2603.01331v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.01331v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discrete diffusion language models (dLLMs) generate text by iteratively denoising a masked sequence. However, standard dLLMs condition each denoising step solely on the current hard-masked sequence, while intermediate continuous representations are discarded after sampling and remasking. We term this bottleneck the \textbf{Information Island} issue: continuous information remains isolated within individual denoising steps and fails to propagate across the trajectory. This bottleneck is especially harmful for reasoning, which requires intermediate reasoning state to be preserved and updated across many denoising steps. To address this limitation, we introduce \textbf{MetaState}, a lightweight recurrent augmentation that equips a frozen dLLM backbone with persistent, fixed-size working memory. MetaState comprises three modules with a shared time conditioner: a cross-attention \textbf{Mixer} that reads backbone activations into memory slots, a GRU-style \textbf{Updater} that integrates information across steps, and a cross-attention \textbf{Injector} that writes the updated memory back into the backbone. We train these modules with a dedicated $K$-step unrolling pipeline to learn multi-step dynamics. MetaState adds only ${\sim}0.6\%$ trainable parameters while keeping the backbone frozen, and consistently improves reasoning performance over frozen baselines on mathematical reasoning and code generation benchmarks, with an average gain of 4.5 percentage points across all evaluations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-02T00:16:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kejing Xia</name>
+    </author>
+    <author>
+      <name>Mingzhe Li</name>
+    </author>
+    <author>
+      <name>Lixuan Wei</name>
+    </author>
+    <author>
+      <name>Zhenbang Du</name>
+    </author>
+    <author>
+      <name>Xiangchi Yuan</name>
+    </author>
+    <author>
+      <name>Dachuan Shi</name>
+    </author>
+    <author>
+      <name>Qirui Jin</name>
+    </author>
+    <author>
+      <name>Wenke Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.01966v1</id>
+    <title>AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations</title>
+    <updated>2026-03-02T15:15:11Z</updated>
+    <link href="https://arxiv.org/abs/2603.01966v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.01966v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon interactions between users and LLM-based assistants necessitate effective memory management, yet current approaches face challenges in training and evaluation of memory. Existing memory benchmarks rely on static, off-policy data as context, limiting evaluation reliability and scalability. To address these gaps, we introduce AMemGym, an interactive environment enabling on-policy evaluation and optimization for memory-driven personalization. AMemGym employs structured data sampling to predefine user profiles, state-dependent questions, and state evolution trajectories, enabling cost-effective generation of high-quality, evaluation-aligned interactions. LLM-simulated users expose latent states through role-play while maintaining structured state consistency. Comprehensive metrics based on structured data guide both assessment and optimization of assistants. Extensive experiments reveal performance gaps in existing memory systems (e.g., RAG, long-context LLMs, and agentic memory) and corresponding reasons. AMemGym not only enables effective selection among competing approaches but also can potentially drive the self-evolution of memory management strategies. By bridging structured state evolution with free-form interactions, our framework provides a scalable, diagnostically rich environment for advancing memory capabilities in conversational agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-02T15:15:11Z</published>
+    <arxiv:comment>Accepted to ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Cheng Jiayang</name>
+    </author>
+    <author>
+      <name>Dongyu Ru</name>
+    </author>
+    <author>
+      <name>Lin Qiu</name>
+    </author>
+    <author>
+      <name>Yiyang Li</name>
+    </author>
+    <author>
+      <name>Xuezhi Cao</name>
+    </author>
+    <author>
+      <name>Yangqiu Song</name>
+    </author>
+    <author>
+      <name>Xunliang Cai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.26680v2</id>
+    <title>AlpsBench: An LLM Personalization Benchmark for Real-Dialogue Memorization and Preference Alignment</title>
+    <updated>2026-05-11T16:07:47Z</updated>
+    <link href="https://arxiv.org/abs/2603.26680v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.26680v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models (LLMs) evolve into lifelong AI assistants, LLM personalization has become a critical frontier. However, progress is currently bottlenecked by the absence of a gold-standard evaluation benchmark. Existing benchmarks either overlook personalized information management that is critical for personalization or rely heavily on synthetic dialogues, which exhibit an inherent distribution gap from real-world dialogue. To bridge this gap, we introduce AlpsBench, An LLM PerSonalization benchmark derived from real-world human-LLM dialogues. AlpsBench comprises 2,500 long-term interaction sequences curated from WildChat, paired with human-verified structured memories that encapsulate both explicit and implicit personalization signals. We define four pivotal tasks - personalized information extraction, updating, retrieval, and utilization - and establish protocols to evaluate the entire lifecycle of memory management. Our benchmarking of frontier LLMs and memory-centric systems reveals that: (i) models struggle to reliably extract latent user traits; (ii) memory updating faces a performance ceiling even in the strongest models; (iii) retrieval accuracy declines sharply in the presence of large distractor pools; and (iv) while explicit memory mechanisms improve recall, they do not inherently guarantee more preference-aligned or emotionally resonant responses. AlpsBench aims to provide a comprehensive framework.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-09T11:06:19Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jianfei Xiao</name>
+    </author>
+    <author>
+      <name>Xiang Yu</name>
+    </author>
+    <author>
+      <name>Chengbing Wang</name>
+    </author>
+    <author>
+      <name>Wuqiang Zheng</name>
+    </author>
+    <author>
+      <name>Xinyu Lin</name>
+    </author>
+    <author>
+      <name>Kaining Liu</name>
+    </author>
+    <author>
+      <name>Hongxun Ding</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Wenjie Wang</name>
+    </author>
+    <author>
+      <name>Fuli Feng</name>
+    </author>
+    <author>
+      <name>Xiangnan He</name>
+    </author>
+    <arxiv:doi>10.1145/3805712.3808634</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3805712.3808634" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.22306v1</id>
+    <title>Memory Bear AI Memory Science Engine for Multimodal Affective Intelligence: A Technical Report</title>
+    <updated>2026-03-18T10:23:00Z</updated>
+    <link href="https://arxiv.org/abs/2603.22306v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.22306v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Affective judgment in real interaction is rarely a purely local prediction problem. Emotional meaning often depends on prior trajectory, accumulated context, and multimodal evidence that may be weak, noisy, or incomplete at the current moment. Although multimodal emotion recognition (MER) has improved the integration of text, speech, and visual signals, many existing systems remain optimized for short-range inference and provide limited support for persistent affective memory, long-horizon dependency modeling, and robust interpretation under imperfect input.
+  This technical report presents the Memory Bear AI Memory Science Engine, a memory-centered framework for multimodal affective intelligence. Instead of treating emotion as a transient output label, the framework models affective information as a structured and evolving variable within a memory system. It organizes processing through structured memory formation, working-memory aggregation, long-term consolidation, memory-driven retrieval, dynamic fusion calibration, and continuous memory updating. At its core, multimodal signals are transformed into structured Emotion Memory Units (EMUs), enabling affective information to be preserved, reactivated, and revised across interaction horizons.
+  Experimental results show consistent gains over comparison systems across benchmark and business-grounded settings, with stronger accuracy and robustness, especially under noisy or missing-modality conditions. The framework offers a practical step from local emotion recognition toward more continuous, robust, and deployment-relevant affective intelligence.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-18T10:23:00Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Deliang Wen</name>
+    </author>
+    <author>
+      <name>Ke Sun</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.18330v1</id>
+    <title>MemArchitect: A Policy Driven Memory Governance Layer</title>
+    <updated>2026-03-18T22:37:05Z</updated>
+    <link href="https://arxiv.org/abs/2603.18330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.18330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent Large Language Model (LLM) agents expose a critical governance gap in memory management. Standard Retrieval-Augmented Generation (RAG) frameworks treat memory as passive storage, lacking mechanisms to resolve contradictions, enforce privacy, or prevent outdated information ("zombie memories") from contaminating the context window.
+  We introduce MemArchitect, a governance layer that decouples memory lifecycle management from model weights. MemArchitect enforces explicit, rule-based policies, including memory decay, conflict resolution, and privacy controls.
+  We demonstrate that governed memory consistently outperforms unmanaged memory in agentic settings, highlighting the necessity of structured memory governance for reliable and safe autonomous systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-18T22:37:05Z</published>
+    <arxiv:comment>This is an on going research work and will be updated periodically</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lingavasan Suresh Kumar</name>
+    </author>
+    <author>
+      <name>Yang Ba</name>
+    </author>
+    <author>
+      <name>Rong Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.07017v1</id>
+    <title>A-MBER: Affective Memory Benchmark for Emotion Recognition</title>
+    <updated>2026-04-08T12:36:18Z</updated>
+    <link href="https://arxiv.org/abs/2604.07017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.07017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI assistants that interact with users over time need to interpret the user's current emotional state in order to respond appropriately and personally. However, this capability remains insufficiently evaluated. Existing emotion datasets mainly assess local or instantaneous affect, while long-term memory benchmarks focus largely on factual recall, temporal consistency, or knowledge updating. As a result, current resources provide limited support for testing whether a model can use remembered interaction history to interpret a user's present affective state.
+  We introduce A-MBER, an Affective Memory Benchmark for Emotion Recognition, to evaluate this capability. A-MBER focuses on present affective interpretation grounded in remembered multi-session interaction history. Given an interaction trajectory and a designated anchor turn, a model must infer the user's current affective state, identify historically relevant evidence, and justify its interpretation in a grounded way. The benchmark is constructed through a staged pipeline with explicit intermediate representations, including long-horizon planning, conversation generation, annotation, question construction, and final packaging. It supports judgment, retrieval, and explanation tasks, together with robustness settings such as modality degradation and insufficient-evidence conditions.
+  Experiments compare local-context, long-context, retrieved-memory, structured-memory, and gold-evidence conditions within a unified framework. Results show that A-MBER is especially discriminative on the subsets it is designed to stress, including long-range implicit affect, high-dependency memory levels, trajectory-based reasoning, and adversarial settings. These findings suggest that memory supports affective interpretation not simply by providing more history, but by enabling more selective, grounded, and context-sensitive use of past interaction</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-08T12:36:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Deliang Wen</name>
+    </author>
+    <author>
+      <name>Ke Sun</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.20117v1</id>
+    <title>To Know is to Construct: Schema-Constrained Generation for Agent Memory</title>
+    <updated>2026-04-22T02:27:50Z</updated>
+    <link href="https://arxiv.org/abs/2604.20117v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.20117v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Constructivist epistemology argues that knowledge is actively constructed rather than passively copied. Despite the generative nature of Large Language Models (LLMs), most existing agent memory systems are still based on dense retrieval. However, dense retrieval heavily relies on semantic overlap or entity matching within sentences. Consequently, embeddings often fail to distinguish instances that are semantically similar but contextually distinct, introducing substantial noise by retrieving context-mismatched entries. Conversely, directly employing open-ended generation for memory access risks "Structural Hallucination" where the model generates memory keys that do not exist in the memory, leading to lookup failures. Inspired by this epistemology, we posit that memory is fundamentally organized by cognitive schemas, and valid recall must be a generative process performed within these schematic structures. To realize this, we propose SCG-MEM, a schema-constrained generative memory architecture. SCG-MEM reformulates memory access as Schema-Constrained Generation. By maintaining a dynamic Cognitive Schema, we strictly constrain LLM decoding to generate only valid memory entry keys, providing a formal guarantee against structural hallucinations. To support long-term adaptation, we model memory updates via assimilation (grounding inputs into existing schemas) and accommodation (expanding schemas with novel concepts). Furthermore, we construct an Associative Graph to enable multi-hop reasoning through activation propagation. Experiments on the LoCoMo benchmark show that SCG-MEM substantially improves performance across all categories over retrieval-based baselines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T02:27:50Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lei Zheng</name>
+    </author>
+    <author>
+      <name>Weinan Song</name>
+    </author>
+    <author>
+      <name>Daili Li</name>
+    </author>
+    <author>
+      <name>Yanming Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.23069v2</id>
+    <title>ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents</title>
+    <updated>2026-10-14T04:04:03Z</updated>
+    <link href="https://arxiv.org/abs/2604.23069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.23069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents often struggle in long-context interactions. As the history grows, sliding windows and prompt compression may drop earlier information that later steps rely on. Retrieval-based memory systems surface relevant content but still overlook the causal and logical dependencies between steps. We introduce ContextWeaver, a selective and dependency-structured memory framework that organizes an agent's interaction trace into a graph of reasoning steps and selects the relevant context for future actions. ContextWeaver supports (1) dependency-based construction and traversal that link each step to the earlier steps it relies on; (2) compact dependency summaries of the reasoning paths; and (3) a lightweight validation layer that incorporates execution feedback. On five software-engineering and terminal benchmarks with a fixed budget per task, ContextWeaver improves the resolve rate over a sliding-window baseline on all five, with a significant gain when pooled across benchmarks, while using 13-18% fewer agent steps. It also performs favorably against alternative context-management approaches, with the largest gains on long-horizon repository tasks. On SWE-Bench Pro, ContextWeaver raises the resolve rate from 66.5% to 72.6%, with significant improvements across all three model backbones. The improvement also holds when the sliding window's budget is raised to cover the summary cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-24T23:39:49Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yating Wu</name>
+    </author>
+    <author>
+      <name>Yuhao Zhang</name>
+    </author>
+    <author>
+      <name>Sayan Ghosh</name>
+    </author>
+    <author>
+      <name>Sourya Basu</name>
+    </author>
+    <author>
+      <name>Anoop Deoras</name>
+    </author>
+    <author>
+      <name>Jun Huan</name>
+    </author>
+    <author>
+      <name>Gaurav Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00702v1</id>
+    <title>Learning How and What to Memorize: Cognition-Inspired Two-Stage Optimization for Evolving Memory</title>
+    <updated>2026-05-01T14:45:20Z</updated>
+    <link href="https://arxiv.org/abs/2605.00702v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00702v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents require long-term user memory for consistent personalization, but limited context windows hinder tracking evolving preferences over long interactions. Existing memory systems mainly rely on static, hand-crafted update rules; although reinforcement learning (RL)-based agents learn memory updates, sparse outcome rewards provide weak supervision, resulting in unstable long-horizon optimization. Drawing on memory schema theory and the functional division between prefrontal regions and hippocampus regions, we introduce MemCoE, a cognition-inspired two-stage optimization framework that learns how memory should be organized and what information to update. In the first stage, we propose Memory Guideline Induction to optimize a global guideline via contrastive feedback interpreted as textual gradients; in the second stage, Guideline-Aligned Memory Policy Optimization uses the induced guideline to define structured process rewards and performs multi-turn RL to learn a guideline-following memory evolution policy. We evaluate on three personalization memory benchmarks, covering explicit/implicit preference and different sizes and noise, and observe consistent improvements over strong baselines with favorable robustness, transferability, and efficiency.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-01T14:45:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Derong Xu</name>
+    </author>
+    <author>
+      <name>Shuochen Liu</name>
+    </author>
+    <author>
+      <name>Pengfei Luo</name>
+    </author>
+    <author>
+      <name>Pengyue Jia</name>
+    </author>
+    <author>
+      <name>Yingyi Zhang</name>
+    </author>
+    <author>
+      <name>Yi Wen</name>
+    </author>
+    <author>
+      <name>Yimin Deng</name>
+    </author>
+    <author>
+      <name>Wenlin Zhang</name>
+    </author>
+    <author>
+      <name>Enhong Chen</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhao</name>
+    </author>
+    <author>
+      <name>Tong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.09278v2</id>
+    <title>EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium</title>
+    <updated>2026-09-29T03:21:48Z</updated>
+    <link href="https://arxiv.org/abs/2605.09278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.09278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent debate (MAD) systems increasingly rely on shared memory to support long-horizon reasoning, but this convenience opens a critical vulnerability: a single corrupted entry can contaminate the downstream memory-augmented reasoning, and debate alone fails to filter such errors. Existing safeguards filter entries via heuristics or LLM-based validation, yet they rely on AI judgments that share the same failure modes and overlook the cross-agent dynamics of MAD. We address this gap by formulating memory updating in MAD as a zero-trust memory game, in which no agent is assumed reliable and the game's equilibrium motivates a principled objective for calibrating memory influence. Guided by this objective, we propose EquiMem, an inference-time calibration mechanism that evaluates each update against the shared memory state and the memory already being used by other agents, using their existing retrieval queries and traversal paths as evidence of calibration. EquiMem instantiates this calibration for both embedding- and graph-based memory, and across diverse benchmarks, MAD frameworks, and memory architectures, it consistently outperforms existing safeguards, remains robust under adversarial agents, and incurs negligible inference overhead.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-10T03:04:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuqiao Meng</name>
+    </author>
+    <author>
+      <name>Luoxi Tang</name>
+    </author>
+    <author>
+      <name>Sakshi Sunil Narvekar</name>
+    </author>
+    <author>
+      <name>Rupali Rajendra Vaje</name>
+    </author>
+    <author>
+      <name>Yingxue Zhang</name>
+    </author>
+    <author>
+      <name>Muchao Ye</name>
+    </author>
+    <author>
+      <name>Zhaohan Xi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.12260v2</id>
+    <title>PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory for Long-Horizon Agents</title>
+    <updated>2026-05-22T14:30:50Z</updated>
+    <link href="https://arxiv.org/abs/2605.12260v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.12260v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon language agents accumulate conversation history far faster than any fixed context window can hold, making memory management critical to both answer accuracy and serving cost. Existing approaches either expand the context window without addressing what is retrieved, perform heavy ingestion-time fact extraction at substantial token cost, or rely on heuristic graph traversal that leaves both accuracy and efficiency on the table. We present PRISM, a training-free retrieval-side framework that treats long-horizon memory as a joint retrieval-and-compression problem over a graph-structured memory. PRISM combines four orthogonal inference-time components: Hierarchical Bundle Search over typed relation paths, Query-Sensitive Edge Costing that aligns traversal with detected query intent, Evidence Compression that compresses the candidate bundle into a compact answer-side context, and Adaptive Intent Routing that routes most queries through zero-LLM tiers. By formulating retrieval as min-cost selection over typed path templates and pairing it with an LLM-side compression step, PRISM surfaces the right evidence under a strict context budget without any fine-tuning or modification to the upstream ingestion pipeline. Experiments on the LoCoMo benchmark show that PRISM delivers substantially higher LLM-judge accuracy than every same-protocol baseline at an order-of-magnitude smaller context budget, occupying a previously empty corner of the accuracy-context-cost frontier and demonstrating a superior balance between answer quality and retrieval efficiency.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T15:28:30Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jingyi Peng</name>
+    </author>
+    <author>
+      <name>Zhongwei Wan</name>
+    </author>
+    <author>
+      <name>Weiting Liu</name>
+    </author>
+    <author>
+      <name>Qiuzhuang Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29237v2</id>
+    <title>Evolving Skill-Structured Attack Memory Enhances LLM Jailbreaking</title>
+    <updated>2026-08-15T00:47:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.29237v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29237v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Jailbreak attacks on large language models (LLMs) aim to induce LLMs to produce content that they are expected to refuse. Automated black-box jailbreak generation is important for safety evaluation, where the attacker observes only model outputs and needs to search for effective adversarial prompts. Existing black-box jailbreak methods either depend on sample-wise heuristic search or leverage attack experience through accumulating strategy pools or method libraries, lacking a systematic organization and management of attack experience. To mitigate these drawbacks, we propose MemoAttack, a memory-driven black-box jailbreak framework with comprehensive attack memory modeling, evolution, and selection. Specifically, MemoAttack comprises three key designs: (1) Skill-Structured Memory Modeling, which abstracts accumulated attack experience into reusable skill-structured attack memory whose units pair attack skills with templates, evidence, and lifecycle state; (2) Lifecycle-Driven Memory Evolution, which evolves the memory through evidence-based probation, promotion, retirement, reactivation, elimination, and storage cleanup; and (3) Posterior-Guided Contextual Memory Selection, which balances reliable memory reuse with uncertainty-driven exploration via contextual Thompson sampling. Across three target models on AdvBench, MemoAttack achieves attack success rates of 93.33-96.67%, exceeding the strongest baseline on each target by 10.00-12.00 percentage points while reducing mean expansion cost on its own successful goals by 20.2-51.6%. In a sequential 400-goal evaluation on Qwen3.5, the trailing 50-goal mean expansion-attempt count decreases overall from 19.74 to 10.92 as memory accumulates.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T01:53:14Z</published>
+    <arxiv:comment>Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Junke Zhang</name>
+    </author>
+    <author>
+      <name>Jianwei Wang</name>
+    </author>
+    <author>
+      <name>Sishuo Chen</name>
+    </author>
+    <author>
+      <name>Yizhang He</name>
+    </author>
+    <author>
+      <name>Qingshuai Feng</name>
+    </author>
+    <author>
+      <name>Zhengyi Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.04555v1</id>
+    <title>Temporal Order Matters for Agentic Memory: Segment Trees for Long-Horizon Agents</title>
+    <updated>2026-06-03T07:42:15Z</updated>
+    <link href="https://arxiv.org/abs/2606.04555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.04555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon conversational agents need to interact with users through evolving events, tasks, and goals. Such histories are naturally temporal, yet many existing memory systems organize information primarily by topical similarity and may ignore the order in which events occur. We introduce Segment Tree Memory, or SegTreeMem, a memory architecture that represents conversation history as a temporally ordered Segment Tree over utterances. SegTreeMem incrementally inserts new utterances through an online rightmost-frontier update rule, preserving chronological order while forming hierarchical memory segments. For retrieval, SegTreeMem propagates relevance scores through the tree to combine local semantic matching with hierarchical temporal context. Across three long-horizon memory benchmarks and two LLM backbones, SegTreeMem improves answer quality over flat retrieval, graph-structured memory, and tree-structured memory baselines. Additional temporal-order permutation analysis shows that the performance gain depends on preserving temporal order during memory construction, supporting the claim that temporal order is a key structure for agentic memory.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-03T07:42:15Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yifan Simon Liu</name>
+    </author>
+    <author>
+      <name>Liam Gallagher</name>
+    </author>
+    <author>
+      <name>Faeze Moradi Kalarde</name>
+    </author>
+    <author>
+      <name>Jiazhou Liang</name>
+    </author>
+    <author>
+      <name>Armin Toroghi</name>
+    </author>
+    <author>
+      <name>Scott Sanner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.07909v2</id>
+    <title>MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback</title>
+    <updated>2026-06-10T16:54:40Z</updated>
+    <link href="https://arxiv.org/abs/2606.07909v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.07909v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern large language model (LLM) agents can use external tools to help users solve complex tasks. However, for problems that require learning from long-term historical events or from previous agent-environment interactions, LLM agents are required to use memory mechanisms to store and retrieve experiences. While sophisticated memory systems exist for dialogue agents, few studies have empirically examined how to improve agents' tool-using capabilities through past user-agent conversations. We propose MemToolAgent, a framework that improves tool use through memory management. Our approach contains a memory extraction module that processes past experiences into structured memory entries, and a retrieval module that dynamically selects a subset of the stored memory entries. This enables more personalized and accurate responses aligned with user preferences and feedback without requiring LLM fine-tuning. In summary, this work has three main contributions: (1) a unified memory entry format that improves both general-purpose and personalized tool use without LLM fine-tuning, (2) a reflection-based memory extraction that uses environment and user feedback to distill wrong executions into critiques to store, and (3) a retrieval module that chooses how many past experiences to use based on the memory similarity distribution. MemToolAgent achieves 29%, 80%, and 17% relative improvements compared to strong baselines on the WorkBench, NESTFUL, and PEToolBench benchmarks, respectively.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-06T00:15:00Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Suleyman Armagan Er</name>
+    </author>
+    <author>
+      <name>Danilo Ribeiro</name>
+    </author>
+    <author>
+      <name>Yogesh Virkar</name>
+    </author>
+    <author>
+      <name>Surafel Lakew</name>
+    </author>
+    <author>
+      <name>Adi Kalyanpur</name>
+    </author>
+    <author>
+      <name>James Gung</name>
+    </author>
+    <author>
+      <name>Thomas Delteil</name>
+    </author>
+    <author>
+      <name>Arshit Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.10572v1</id>
+    <title>One Token per Multimodal Evidence: Latent Memory for Resource-Constrained QA</title>
+    <updated>2026-06-09T08:36:08Z</updated>
+    <link href="https://arxiv.org/abs/2606.10572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.10572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>External memory effectively grounds large language models (LLMs) and vision-language models (VLMs)-based question answering (QA) in relevant multimodal evidence. However, existing memory paradigms represent each memory item in raw text and image forms, so retrieval-based systems must pass the retrieved text or images to the generation LLMs/VLMs, resulting in high token consumption and storage pressure, making it unaffordable for resource-constrained applications. We propose Latent Memory, a latent-space memory paradigm that replaces each raw text or image evidence item with a single high-dimensional latent token produced by a small compressor LLM/VLM. Rather than retrieving raw evidence for generation, Latent Memory operates in a unified latent representation space: the query is embedded into this space to retrieve relevant latent tokens, and the retrieved latent tokens are directly prompted to a pretrained LLM or VLM for answer generation. To make each latent token simultaneously informative for reconstruction, retrieval, and generation, we train the compressor with reconstruction, contrastive, and distillation objectives in a unified end-to-end manner. Latent Memory is evaluated on seven text-only QA benchmarks (e.g., HotpotQA) and multimodal QA benchmarks, where it achieves competitive QA performance compared to advanced RAG baselines while consuming 3x to 10x fewer generator tokens. It can also deliver the strongest image-grounded QA performance on WebQA. Code is available at https://github.com/zz1358m/Latent-Memory-Master.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-09T08:36:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhi Zheng</name>
+    </author>
+    <author>
+      <name>Ziqiao Meng</name>
+    </author>
+    <author>
+      <name>Hao Luan</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Wee Sun Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19847v2</id>
+    <title>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</title>
+    <updated>2026-10-31T14:38:22Z</updated>
+    <link href="https://arxiv.org/abs/2606.19847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) demonstrate strong reasoning and generation abilities, but their fixed context windows limit long-term information accumulation and reuse across multi-session interactions. Existing memory-augmented systems often construct memory in a coarse and unstable manner, relying on inefficient memory representations or unstable unconstrained updates. To address these challenges, we propose AtomMem, a long-term memory system designed for value-dense storage and stable memory evolution. AtomMem introduces a Fact Executor, which selectively extracts high value atomic facts from long form interactions to serve as highly efficient memory representations. Subsequently, AtomMem organizes these facts into hierarchical event structures and temporal profiles, capturing coherent episodic contexts and tracking dynamically evolving user attributes over time. During retrieval, the system activates an associative memory graph to connect fragmented memories. Experiments on the LoCoMo benchmark confirm that AtomMem achieves state-of-the-art performance across various reasoning tasks, offering a scalable and economically viable solution for deploying intelligent personalized agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T06:56:15Z</published>
+    <arxiv:comment>23 pages, 10 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yanyu Yao</name>
+    </author>
+    <author>
+      <name>Shangze Li</name>
+    </author>
+    <author>
+      <name>Zhi Zheng</name>
+    </author>
+    <author>
+      <name>Hui Zheng</name>
+    </author>
+    <author>
+      <name>Qi Liu</name>
+    </author>
+    <author>
+      <name>Tong Xu</name>
+    </author>
+    <author>
+      <name>Enhong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24322v1</id>
+    <title>Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees</title>
+    <updated>2026-06-23T08:57:50Z</updated>
+    <link href="https://arxiv.org/abs/2606.24322v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24322v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents increasingly rely on persistent long-term memory, which creates a critical vulnerability that we study here: memory poisoning. An adversary can store untrusted content in one session that later steers a consequential action, such as a payment, a setting change, or data exfiltration, in a future session. Existing defenses base a memory item's authority to act on either its content (detection or trust-scoring) or its derivation history (lineage). We show that both signals are malleable. An attacker can launder an untrusted origin through three channels specific to LLM agents: the agent's own summarization, a trusted-tool echo, and manufactured corroboration. Each makes the content look benign and breaks or flips its derivation edge to ``trusted.'' We formalize malleability for the memory write-retrieve-act pipeline and prove a machine-checked separation theorem. No content- or lineage-based defense is sound under laundering (T1), write-time origin binding is necessary (T2), and non-malleable origin-bound authority with Sybil-resistant corroboration-gated elevation is sufficient (T3). Our construction, TMA-NM (Tamper-evident Memory Authority, Non-Malleable), instantiates non-malleable information-flow control (IFC) for LLM-agent memory. A cross-defense, cross-attack, and cross-model benchmark over eight frontier models shows that existing defenses fail exactly where the theory predicts (up to 68% laundering attack-success), while TMA-NM reaches 0% attack success on both direct and laundering attacks across all models and channels, at full legitimate utility. We release the benchmark, harness, and machine-checked TLA+ models to support reproducibility.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T08:57:50Z</published>
+    <arxiv:comment>Index Terms: LLM agents, long-term memory, memory poisoning, information-flow control, capability security, prompt injection, formal verification, benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yedidel Louck</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.30067v1</id>
+    <title>Neural Subspace Reallocation: Continual Learning as Retrieval-Based Subspace Memory Management</title>
+    <updated>2026-06-29T10:00:29Z</updated>
+    <link href="https://arxiv.org/abs/2606.30067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.30067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Neural Subspace Reallocation (NSR), which reframes continual learning as memory management over parameter subspaces. Instead of treating Low-Rank Adaptation (LoRA) modules as disposable per-task adapters, NSR manages them as compressible, retrievable memory units on a frozen backbone through a recurring cycle: (1) compress learned LoRAs via SVD, (2) reserve them in a TaskKnowledgeBank, (3) recall related past LoRAs by embedding similarity to warm-start new or returning tasks, and (4) reallocate the active subspace accordingly, with distillation protecting prior tasks. We prove that in cyclic environments any memoryless allocation policy incurs cumulative regret Omega(T(M-1)Delta_switch) relative to a history-aware policy backed by the Bank (Theorem 1). Empirically, on Split-CIFAR-100 the Bank reduces cyclic recovery time by 10x, exactly as predicted, and on the heterogeneous 5-Datasets benchmark NSR achieves the highest accuracy and the least forgetting, about 9x closer to zero backward transfer than the memoryless heuristics. Crucially, we run a controlled study that isolates which component matters: holding the Bank fixed and varying only the allocation rule, we find that a simple similarity-based retrieval rule matches or beats a learned reinforcement-learning controller (recovering recurring tasks in 0 vs 1.8 steps and reaching equal accuracy). Our central, honest finding is therefore that the memory mechanism -- compression and similarity retrieval -- rather than a learned allocation policy, drives continual-learning performance under fixed capacity. A memory-budget analysis confirms the compressed Bank stays small -- 0.29 MB of parameter memory per task -- so a top-K retention cap bounds the total footprint while preserving fast recovery for retained tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-29T10:00:29Z</published>
+    <arxiv:comment>9 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Byeong Hoon Yoon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31650v5</id>
+    <title>ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL</title>
+    <updated>2026-08-03T09:35:31Z</updated>
+    <link href="https://arxiv.org/abs/2606.31650v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31650v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon language agents must repeatedly interact with tools, accumulate evidence, and make decisions under bounded context windows. Context-management methods make such rollouts feasible by simplifying past interactions through deletion, folding, or memory editing. However, when useful history is collapsed into compressed states, the reconstructed context may no longer reveal which earlier observations support a successful final answer. This creates a mismatch between bounded-context acting and outcome-based reinforcement learning: the policy acts on reconstructed context, while the learner lacks source-level provenance for assigning credit to the evidence that mattered. We propose ECHO, a selective turn-memory framework for traceable context reconstruction in Agentic RL. ECHO compresses each completed environment turn into a compact source-indexed memory record, reconstructs bounded policy contexts by selecting useful records, and reuses the selected source indices to route positive outcome credit to the final trajectory segment, reused evidence turns, memory findings, and memory-selection actions. On BrowseComp-Plus, ECHO reaches 43.4% held-out accuracy, outperforming GRPO at 28.9% and the rolling-summary baseline SUPO at 36.1%, while using fewer turns and lower trajectory volume than SUPO. The trained policy also improves zero-shot generalization across multi-objective QA, code generation, and deep information-seeking benchmarks on both dense and MoE backbones.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T13:29:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zijun Xie</name>
+    </author>
+    <author>
+      <name>Binbin Zheng</name>
+    </author>
+    <author>
+      <name>Enlei Gong</name>
+    </author>
+    <author>
+      <name>Jihua Liu</name>
+    </author>
+    <author>
+      <name>Yuyang You</name>
+    </author>
+    <author>
+      <name>Lingfeng Liu</name>
+    </author>
+    <author>
+      <name>Jiayao Tang</name>
+    </author>
+    <author>
+      <name>Guanqun Zhao</name>
+    </author>
+    <author>
+      <name>Aoqi Hu</name>
+    </author>
+    <author>
+      <name>Zeyu Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00696v1</id>
+    <title>Imprint: Online Memory Compression for Long-Horizon Egocentric QA</title>
+    <updated>2026-07-01T09:45:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.00696v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00696v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon egocentric question answering involves answering about events that have occurred hours or days in the past. This requires memory representations that remain both retrieval-effective and scalable over days or weeks of recording. Existing long-horizon egocentric QA methods construct memory as hierarchical textual summaries of observations. While effective for reducing memory size, summarization optimizes for descriptive compression rather than retrieval: repeated interactions are absorbed into coarse textual descriptions instead of being preserved as explicit, recurring memory units, making long-horizon evidence aggregation difficult. We propose Imprint, an interaction-centric memory framework that formulates long-horizon egocentric memory as an online memory compression problem rather than summarization. Incoming observations are first represented as structured Interaction Records and continuously organized into recurring interaction patterns. Using human memory consolidation signals of recurrence, recency, and distinctiveness, Imprint selectively retains and compresses interactions into a compact retrieval-oriented memory. We evaluate Imprint on EgoLifeQA, a seven-day egocentric benchmark containing questions that require reasoning over interactions occurring hours to days before the query. With the same LLM, Imprint improves QA accuracy from 31.0% to 35.8%, increases evidence-grounded answers by $6\times$ compared with EgoRAG, reduces memory footprint by $2.3\times$, and decreases retrieval latency by $11.8\times$. These results demonstrate that memory compression provides a scalable and retrieval-effective foundation for long-horizon egocentric question answering.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T09:45:30Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kousik Das</name>
+    </author>
+    <author>
+      <name>Debaditya Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09889v1</id>
+    <title>Remembering Distinct Items, Not Tokens: A Learnable Dirichlet-Process Cache Between State-Space Models and Attention</title>
+    <updated>2026-07-10T18:28:21Z</updated>
+    <link href="https://arxiv.org/abs/2607.09889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fixed-state sequence models compress an unbounded past into a bounded state, which caps their associative recall at roughly the state dimension; attention escapes the cap by keeping a key-value entry for every token, at quadratic compute and a cache that grows with the sequence. We study the middle ground: a sparse cache that allocates a slot only when an input is novel, so its size tracks the number of distinct items rather than the number of tokens. The allocation rule is the DP-means clustering rule, the small-variance limit of a Dirichlet-process mixture, used not as latent-variable inference but as the key-value memory operator for a deep recurrent backbone. We develop it in two forms, a static cache with a fixed concentration and a surprise-adaptive variant whose concentration follows the recent novelty rate. On a controlled associative-recall benchmark with redundancy we show that the cache matches full-attention recall while storing only the distinct items, that it dominates a fixed-budget eviction cache on the recall-versus-size frontier, and that on a state-space backbone it answers both a recall query and a long-range aggregate at the lowest memory of any model tested. The allocation is learnable end to end: a two-parameter novelty-threshold gate trained on the task loss alone recovers the rule exactly, whereas an over-parameterized gate fails, so the operative ingredient is the inductive bias rather than capacity. The evidence is a family of controlled mechanism studies at modest scale, with the distinct-items property confirmed on four real streams (recommendation, systems logs, clinical events, and insurance claims); a real-backbone, real-corpus language validation is pursued in a companion study.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T18:28:21Z</published>
+    <arxiv:comment>16 pages, 9 figures. Companion paper on event-log applications forthcoming</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Siddharth Pal</name>
+    </author>
+    <author>
+      <name>Viktoria Rojkova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13591v3</id>
+    <title>Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents</title>
+    <updated>2026-10-12T18:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.13591v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13591v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents increasingly rely on external memory systems to accumulate experience across tasks. Yet nearly all existing approaches, from graph-structured memories to reflective insight stores, access memory through fixed, hand-designed heuristics. We argue that this static view of memory is a core bottleneck for agentic learning because optimal memory behavior is fundamentally context-dependent. The early stages of the tasks, benefit from minimal retrieval because memory is sparse; recurring goal types benefit from plan reuse rather than generic nearest-neighbor lookup; stuck agents benefit from re-retrieval with alternative queries; and across long task streams, the memory store itself must be consolidated and pruned to remain useful. We present Memory as a Controlled Process (MemCon), a framework that models memory operations as a Markov Decision Process and learns an online policy that adaptively decides when, what, and how much to retrieve, when to inject a distilled plan, and when to consolidate or forget. MemCon is backend-agnostic: it wraps any existing memory implementation, learns from task-by-task binary feedback with no pretraining and no additional LLM calls, and uses a lightweight tabular contextual bandit with UCB exploration that converges within tens of tasks. Across 6 benchmarks, 3 agent frameworks, and 3 LLM backbones, MemCon consistently outperforms multiple memory baselines by up to 15.2 points in task success while reducing token consumption by 5--20%.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T08:32:40Z</published>
+    <arxiv:comment>none</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Eric Hanchen Jiang</name>
+    </author>
+    <author>
+      <name>Zhi Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Wu</name>
+    </author>
+    <author>
+      <name>Levina Li</name>
+    </author>
+    <author>
+      <name>Dong Liu</name>
+    </author>
+    <author>
+      <name>Xiao Liang</name>
+    </author>
+    <author>
+      <name>Rui Sun</name>
+    </author>
+    <author>
+      <name>Yubei Li</name>
+    </author>
+    <author>
+      <name>Edward Sun</name>
+    </author>
+    <author>
+      <name>Haozheng Luo</name>
+    </author>
+    <author>
+      <name>Zhaolu Kang</name>
+    </author>
+    <author>
+      <name>Aylin Caliskan</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Ying Nian Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.23278v1</id>
+    <title>Co-Evolving Graph and Text Memory for Training-Free Multi-Hop Question Answering</title>
+    <updated>2026-07-25T16:29:38Z</updated>
+    <link href="https://arxiv.org/abs/2607.23278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.23278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-hop question answering requires coordinating relational and textual evidence across reasoning steps, a combination neither a text corpus nor a knowledge graph can supply alone. Prior work often emphasizes only part of this loop: graph-augmented RAG retrieves from a pre-built or query-updated graph, KGQA systems search within topic-centered subgraphs, and memory-augmented agents maintain evolving memories without continuously reconciling graph memory with textual context. We propose Co-E, a training-free system built around synchronized bidirectional graph-text working memory. A synchronization cycle consolidates textual memory, extracts relational triples into graph memory, and injects graph facts back into the generation context. Because both memories are maintained, they shape subsequent retrieval and generation. Evaluated on six multi-hop QA benchmarks, Co-E improves over comparable training-free open-backbone baselines and is competitive with larger or trained systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-25T16:29:38Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hieu Man</name>
+    </author>
+    <author>
+      <name>Thien Huu Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.25992v1</id>
+    <title>MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents</title>
+    <updated>2026-07-28T17:08:56Z</updated>
+    <link href="https://arxiv.org/abs/2607.25992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.25992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user-LLM interaction records uniformly, leading to redundant and low-impact records persisting in the memory repository. To address this challenge, we present MemLens, a value-aware memory management system that takes memory records as first-class data objects. MemLens provides an end-to-end interactive analytics dashboard that exposes the complete memory lifecycle, including Shapley-style memory evaluation, value-aware storage, and memory-assisted response. Through a study-copilot application, the system enables users to inspect memory values, visualize hierarchical memory structures, and compare various memory management strategies in terms of response quality, retrieval latency, and token consumption. Therefore, our MemLens can serve as an efficient, interpretable, and personalized long-term memory management system for LLM-based agents.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-28T17:08:56Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Shuyue Wei</name>
+    </author>
+    <author>
+      <name>Chang Liu</name>
+    </author>
+    <author>
+      <name>Zimu Zhou</name>
+    </author>
+    <author>
+      <name>Yongxin Tong</name>
+    </author>
+    <author>
+      <name>Lizhen Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.29377v1</id>
+    <title>Zero-Mem: Zero-Token Memory Operations for LLM Agents</title>
+    <updated>2026-07-31T13:01:06Z</updated>
+    <link href="https://arxiv.org/abs/2607.29377v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.29377v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. We ask whether structured memory access requires generation at all. Zero-Mem introduces \emph{zero-token memory operations}: no step outside final question answering invokes an LLM or consumes LLM input or output tokens; encoder computation is accounted for separately. Zero-Mem preserves original interaction traces as its source of record. It organizes the traces in two complementary ways. An entity--context graph exposes connections across interactions, while a temporal hierarchy preserves conversational locality and session state. For each query, Zero-Mem weighs the two views, retrieves from both, and follows their structure to recover supporting relations or surrounding context. Deterministic calibration first discards conflicting evidence and then keeps the reader's answer grounded in the retrieved traces. Only the final-QA reader invokes an LLM. Across long-memory and long-context question-answering benchmarks, Zero-Mem achieves competitive performance while eliminating LLM calls and LLM-token consumption from memory operations. With the same final-QA reader and context budget, it reduces memory-operation time cost by 57.6\% relative to the fastest compared baseline. Ablations support the contribution of the two views and their query-dependent coordination. Overall, the results show that structured agent memory need not generate an intermediate representation of the past. After peer review, the code and implementation details will be available at \textcolor{blue}{https://github.com/TheMoon0815/Zero-mem}.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-31T13:01:06Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yilin Xiao</name>
+    </author>
+    <author>
+      <name>Zhehan Zhu</name>
+    </author>
+    <author>
+      <name>Yujing Zhang</name>
+    </author>
+    <author>
+      <name>Jin Chen</name>
+    </author>
+    <author>
+      <name>Zijin Hong</name>
+    </author>
+    <author>
+      <name>Luyao Zhuang</name>
+    </author>
+    <author>
+      <name>Qinggang Zhang</name>
+    </author>
+    <author>
+      <name>Shengyuan Chen</name>
+    </author>
+    <author>
+      <name>Xiaocao Ouyang</name>
+    </author>
+    <author>
+      <name>Lingfei Ren</name>
+    </author>
+    <author>
+      <name>Xiao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.05095v1</id>
+    <title>Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite</title>
+    <updated>2026-08-05T17:32:43Z</updated>
+    <link href="https://arxiv.org/abs/2608.05095v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.05095v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents for long term reasoning require a memory that can be efficiently and effectively updated over time, as new facts and external feedback continue to arrive. Recently, graph memory has been adopted to offer structural organization for multi-hop retrieval and reasoning. However, existing methods store all memories in a flat graph, and accumulated historical memories can introduce irrelevant contexts and increase the cost of evidence selection during retrieval. Moreover, they typically update memory units independently, requiring repeated unit-wise rewrite to cover related changes. To address these issues, we propose HiGram, an evolving hierarchical graph memory framework with path-level localization and rewriting. Specifically, we first propose a hierarchical graph memory, which organizes the memory into coarse-to-fine architecture composed of upper-level nodes and MemoryUnits, thereby reducing the amount of irrelevant information during retrieval. We further propose MicroGraph-based path-level localization, which leverages query and update conditioned MicroGraphs to identify support subgraph and evidence path before rewrite. Finally, we propose a coordinated rewriting method that jointly revises intra-unit memory and inter-unit dependencies, enable valid dependency structures updating in the localized evidence path. Experiments on benchmarks for long-term conversational question answering and conflict-aware memory evaluation demonstrate that our method demonstrate substantial improvements over baselines in answer quality and token efficiency. Besides, our method improves answer accuracy and query-valid evidence selection under dynamic, static, and conditional conflicts.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-05T17:32:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiawei Yue</name>
+    </author>
+    <author>
+      <name>Boran Wang</name>
+    </author>
+    <author>
+      <name>Xiaoqing Zhang</name>
+    </author>
+    <author>
+      <name>Shuxin Zheng</name>
+    </author>
+    <author>
+      <name>Ziwei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.10502v2</id>
+    <title>From Faulty Memories to Corrected Actions: Dependency-Guided Rollback Repair for Memory-Augmented Agents</title>
+    <updated>2026-10-22T02:51:16Z</updated>
+    <link href="https://arxiv.org/abs/2608.10502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.10502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent memory lets language model agents reuse information across sessions, but it also makes errors durable: a poisoned, stale, or misattributed record can alter reasoning, tool use, answers, and subsequent memory writes. Existing defenses mainly detect or delete suspicious memories, or revise the current response. Deleting the source leaves already propagated claims, actions, and derived memories active, whereas resetting the store or replaying the full trace destroys benign state and repeats unnecessary computation. We therefore formulate post-failure memory recovery: given a failed execution and diagnosed faulty memories, regenerate the answer and clean up affected persistent state while retaining unaffected work. Our dependency-guided rollback repair builds a typed memory-to-action graph from runtime provenance, traces explicit downstream dependencies, preserves candidates with independent trusted support, deactivates unsupported memory state, and selectively replays only answer-relevant affected computation. We evaluate this approach on a 150-case controlled benchmark spanning three tool-use domains and four memory failure types, and on a 50-case trajectory-derived stress test adapted from LongMemEval-V2. On the controlled benchmark, it achieves 85.3% immediate recovery versus 77.3% for LLM-judge repair, the strongest baseline, while preserving all benign memories and using 41.8% fewer LLM calls. Selective replay, however, leaves higher recurrence than LLM-judge repair (26.6% vs. 12.1%), exposing a trade-off between targeted repair and broader recomputation. On the adapted subset, it reaches 68.0% recovery versus 54.0% for the next best method, with 5.9% recurrence. Code and data are available at https://github.com/xiaoqi-7/memory-rollback.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-11T05:19:55Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yiqi Wang</name>
+    </author>
+    <author>
+      <name>Caili Yu</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhang</name>
+    </author>
+    <author>
+      <name>Yiqun Duan</name>
+    </author>
+    <author>
+      <name>Mingkai Zheng</name>
+    </author>
+    <author>
+      <name>Zhangkai Wu</name>
+    </author>
+    <author>
+      <name>Kaize Shi</name>
+    </author>
+    <author>
+      <name>Taotao Cai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02991v2</id>
+    <title>TRACE: A spatiotemporal contact memory graph network simulator for granular dynamics</title>
+    <updated>2026-09-26T06:55:18Z</updated>
+    <link href="https://arxiv.org/abs/2609.02991v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02991v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learned graph simulators provide an efficient alternative to high-fidelity solvers for granular dynamics. However, granular motion depends strongly on inter-granular contact history, which is difficult to preserve when particle contacts form, break, and rearrange. Existing simulators mainly store temporal information in node features or node-level memory. Here we introduce TRACE, a graph-network simulator that stores interaction history directly on contact edges. Each edge maintains a persistent memory updated by attention-based message passing and a gated recurrent unit, while an edge-identity dictionary preserves this memory as the contact graph changes. A physics-structured decoder predicts inter-granular normal and tangential contact forces, enforces the Coulomb friction limit, and applies equal-and-opposite internal forces. The model is trained with single-step pretraining followed by autoregressive rollout fine-tuning. We evaluate TRACE on 2D and 3D granular column-collapse benchmarks. In both cases, TRACE produces stable, physically consistent long-horizon rollouts, closely reproducing the final deposit geometry and the kinetic energy released during collapse. Compared with graph network simulator (GNS) and node-memory graph neural simulator (NMGNS), TRACE reduces long-rollout position error by 31-62% and final-deposit error by 58-89% across the two benchmarks, while using fewer parameters and maintaining near-zero particle interpenetration. TRACE also achieves 12.2$\times$ and 8.9$\times$ speedups over the material point method (MPM) reference solver in 2D and 3D, respectively. Our code is available at https://github.com/Data-Driven-Computational-Geotechnics/TRACE.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T15:30:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Changjian Zhou</name>
+    </author>
+    <author>
+      <name>Negin Yousefpour</name>
+    </author>
+    <author>
+      <name>Jie Qi</name>
+    </author>
+    <author>
+      <name>Junfeng Fang</name>
+    </author>
+    <author>
+      <name>Guillermo A. Narsilio</name>
+    </author>
+    <author>
+      <name>Hans Petter Jostad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.07135v1</id>
+    <title>NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management</title>
+    <updated>2026-09-07T07:34:33Z</updated>
+    <link href="https://arxiv.org/abs/2609.07135v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.07135v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An embodied kitchen assistant must do more than recognize food in isolated frames. It must track ingredient states over time and integrate visual observations with recipe and nutritional knowledge to support constraint-aware decision-making. We formalize this capability as \emph{Embodied Nutrition Management}: perceiving nutrition-relevant events, maintaining a persistent food state, and using it for knowledge-grounded planning. Existing benchmarks evaluate static food understanding or embodied cooking actions, but do not measure whether an agent can continuously update and use nutrition-relevant states in dynamic kitchens. To fill this gap, we introduce \textbf{NutriBench-Kitchen}, a benchmark containing 1,500 manually verified question--answer pairs from 160 cooking videos. It covers five task families: Ingredient Entry, Memory Management, Recipe Query, Long-Term Planning, and Short-Term Planning, spanning food-state construction, maintenance, knowledge retrieval, and decision-making across different planning horizons. Evaluations of proprietary and open-source large vision-language models reveal a substantial gap from human performance, particularly in quantitative ingredient estimation, long-term state tracking, and reasoning under interacting constraints. We further introduce \textbf{Nutri-Vgent}, a diagnostic long-video agent with separate episodic, food-state, and recipe memories. Its consistent improvements demonstrate the value of explicit state representations and structured memory for nutrition management. Together, NutriBench-Kitchen and Nutri-Vgent provide a testbed for studying persistent state tracking and knowledge-grounded reasoning in dynamic kitchens. Code is available at https://github.com/V1ol1n/NutriBench-Kitchen.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-07T07:34:33Z</published>
+    <arxiv:comment>17 pages, 4 figures, ECCV</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yulin Wei</name>
+    </author>
+    <author>
+      <name>Xiangchen Wang</name>
+    </author>
+    <author>
+      <name>Jianhui Pan</name>
+    </author>
+    <author>
+      <name>Jinyu Xiao</name>
+    </author>
+    <author>
+      <name>Zheng Tan</name>
+    </author>
+    <author>
+      <name>Ruozai Tian</name>
+    </author>
+    <author>
+      <name>Guanhua Chen</name>
+    </author>
+    <author>
+      <name>Feng Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08599v1</id>
+    <title>Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation</title>
+    <updated>2026-09-08T11:34:04Z</updated>
+    <link href="https://arxiv.org/abs/2609.08599v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08599v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are evolving from single-session tools toward long-term personal assistants that must adapt to individual users across tasks, contexts, and interactions. This shift makes memory a core requirement for personalization, since user preferences, goals, constraints, relationships, and past experiences are accumulated gradually and often change over time. Graph-based personalized memory provides a structured way to model such user information through explicit relations, temporal context, and evidence links. Such representations can model not only what an agent remembers about a user but also how memories are connected, revised, and retrieved to support personalized decisions. However, existing work remains fragmented across personalized agents and generic graph memory frameworks, making it difficult to understand the design space as a whole. This survey develops a lifecycle-oriented view of graph-based personalized memory for LLM agents. We organize existing studies around memory representation, memory evolution, memory retrieval, and memory evaluation. We further compare key design choices, discuss current evaluation practices, and open challenges in building reliable long-term personalized agents. This survey aims to clarify how graph-based memory can support adaptive, controllable, and user-centric LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T11:34:04Z</published>
+    <arxiv:comment>Accepted by ICKG 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dac Duy Anh Nguyen</name>
+    </author>
+    <author>
+      <name>Zhangchi Qiu</name>
+    </author>
+    <author>
+      <name>Shigeng Chen</name>
+    </author>
+    <author>
+      <name>Alan Wee-Chung Liew</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16053v1</id>
+    <title>Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents</title>
+    <updated>2026-09-13T05:17:37Z</updated>
+    <link href="https://arxiv.org/abs/2609.16053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory is essential for LLM-based agents operating over extended interactions. Existing memory systems primarily update memory when new information arrives, treating retrieval as the endpoint of memory access rather than a driver of memory evolution. Consequently, retrieval feedback is rarely exploited to reorganize memory for future access continuously. Moreover, most existing approaches rely on predefined memory structures together with fixed retrieval pipelines, limiting the agent's ability to organize and evolve its own memory autonomously. Inspired by memory reconsolidation in cognitive neuroscience, we propose \textbf{REALM}, a \textbf{r}econsolidation-\textbf{e}volution \textbf{a}gentic \textbf{l}ong-term \textbf{m}emory framework. It models long-term memory as a continual lifecycle by autonomously organizing memories into a heterogeneous cognitive graph, retrieving evidence via adaptively composed graph-search atoms, and continually reconsolidating memories based on retrieval feedback. REALM achieves an average accuracy of 75.97\% on LoCoMo and 65.11\% on LongMemEval, outperforming the strongest baselines by 7.17 and 1.31 points respectively. Ablation studies confirm that memory reconsolidation consistently boosts performance, with further analyses revealing that it progressively reorganizes related memory units into more coherent local structures for collective evidence recall and utilization during reasoning. These results suggest that retrieval-driven memory reconsolidation provides an effective mechanism for continually evolving long-term memory in LLM agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-13T05:17:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuanyi Song</name>
+    </author>
+    <author>
+      <name>Yukai Wang</name>
+    </author>
+    <author>
+      <name>Xinbei Ma</name>
+    </author>
+    <author>
+      <name>Zhihui Fu</name>
+    </author>
+    <author>
+      <name>Jianghao Lin</name>
+    </author>
+    <author>
+      <name>Weiwen Liu</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Huarong Deng</name>
+    </author>
+    <author>
+      <name>Yong Yu</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26780v2</id>
+    <title>SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue</title>
+    <updated>2026-09-23T12:35:20Z</updated>
+    <link href="https://arxiv.org/abs/2609.26780v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26780v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attribution and relational understanding in multi-party dialogue, and state reconstruction from interleaved histories. To address both, we propose $\textbf{SpeakerMem-R1}$: its dual-track memory stores speaker-labeled verbatim messages and derived states organized into person-level and group-level views, then combines evidence from both tracks by entity, event, and time at query time. To reduce attribution and update errors during structured memory construction while enabling local deployment, we train Writer-R1 with SpeakerLevenshtein and speaker-conditioned GRPO. On GroupMemBench, SocialMemBench, and EverMemBench, SpeakerMem-R1 achieves binary accuracies of 47.9%, 69.2%, and 61.9%, respectively. On the publicly reported EverMemBench leaderboard from EverMind-AI, we achieves 62.33%, the best reported result among the latest state-of-the-art frameworks. It also achieves 70.85% on all 1,986 LoCoMo questions, which we use as a two-person long-term conversation boundary test. In a controlled evaluation of 305 questions, RL raises the SFT Writer's mean accuracy from 57.38% to 68.20%. We report both binary accuracy and token-F1, and ablations show that the verbatim and structured tracks, as well as person-level and group-level views, are complementary under the standardized evaluation interface.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-22T17:56:12Z</published>
+    <arxiv:comment>Project Page: https://2022hpsk.github.io/SpeakerMemR1 , Code: https://github.com/2022hpsk/SpeakerMemR1</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haobo Zheng</name>
+    </author>
+    <author>
+      <name>Tan Tang</name>
+    </author>
+    <author>
+      <name>Yan Chen</name>
+    </author>
+    <author>
+      <name>Weijie Wang</name>
+    </author>
+    <author>
+      <name>Yingcai Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32269v1</id>
+    <title>Before Answering: Evidence Sufficiency under Size-Matched Memory Construction</title>
+    <updated>2026-09-26T05:53:10Z</updated>
+    <link href="https://arxiv.org/abs/2609.32269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents that answer questions from compressed or retrieved memory must recognize when the evidence a query needs is no longer in memory. Benchmarks for this task usually create insufficient-evidence examples by deleting supporting passages. We show that this construction leaks the label through memory size: on MuSiQue, a classifier that only counts paragraphs reaches an area under the ROC curve (AUROC) of $0.979$ for detecting unsafe memory, higher than the lexical estimator we initially evaluated. We propose a size-matched construction that provably removes this shortcut, and use it to study MemSafe, an estimator that cross-encodes the query with each memory unit and aggregates the units with a set transformer. Across three multi-hop question answering datasets and five seeds, MemSafe reaches $0.968$ and $0.983$ AUROC on MuSiQue and HotpotQA, $0.26$ to $0.39$ above a lexical baseline, while the third dataset, 2WikiMultiHopQA, is saturated. A frozen pretrained cross-encoder with a logistic head already closes $41\%$ of the MuSiQue gap between the lexical baseline and MemSafe. At the same time, MemSafe degrades more than a weak baseline on the unanswerable questions released with MuSiQue, reaches only $0.639$ AUROC on SQuAD~2.0, and needs several thousand clinical training examples before it outperforms a feature-based estimator. Used as a gate for a 7B reader, it reduces the error rate on answered questions from $0.850$ to $0.631$ at $5\%$ coverage, outperforming both reader confidence and, on average, the ground-truth integrity label, although a 7B LLM judge is the better gate at $10\%$ coverage. These results indicate that the way insufficient evidence is constructed matters as much as the estimator that detects it.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T05:53:10Z</published>
+    <arxiv:comment>24 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Joyanta Jyoti Mondal</name>
+    </author>
+    <author>
+      <name>Md. Shifatul Ahsan Apurba</name>
+    </author>
+    <author>
+      <name>Mridul Banik</name>
+    </author>
+    <author>
+      <name>Md Masud Al Mahmud</name>
+    </author>
+    <author>
+      <name>Ibne Farabi Shihab</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32391v2</id>
+    <title>SCLATE: a Substrate for Continual-Learning Agent Training and Evaluation</title>
+    <updated>2026-09-29T20:11:02Z</updated>
+    <link href="https://arxiv.org/abs/2609.32391v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32391v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interleaving tasks with agent-side events such as session stop and start, crons, and memory consolidation. Yet existing benchmarks and training frameworks schedule only the benchmark's own events, leaving each benchmark and agent pair to build a custom scheduling loop. We present SCLATE, an execution substrate where benchmarks and unmodified agents each add their events to one open event scheduler through an adapter. A hybrid simulated clock runs these events on a shared timeline, flowing in real time while the agent works and skipping idle gaps, which compresses a month-long scenario into hours. SCLATE also serves as a rollout engine that runs any agent's harness and memory unmodified, recording the tokens and log probabilities of every model call through an in-container proxy. We port seven benchmarks to SCLATE and compare ten unmodified harness and memory configurations head to head on ten models. The comparison shows that an added memory system does not reliably beat the harness's native memory and that models differ widely in how they use the same harness and memory. We then post-train Qwen3.5-4B through unmodified harnesses and memory systems. The model learns to use both, reading 6.8x fewer file lines with a 16.7-point higher SWE-bench Verified pass rate, and writing richer memory records, while its held-out MetaClaw accuracy rises by up to 11.8 points.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T09:08:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Youngmok Jung</name>
+    </author>
+    <author>
+      <name>Sirajul Salekin</name>
+    </author>
+    <author>
+      <name>Henry Tran</name>
+    </author>
+    <author>
+      <name>Javier Movellan</name>
+    </author>
+    <author>
+      <name>Zhao Huang</name>
+    </author>
+    <author>
+      <name>Manjot Bilkhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32401v1</id>
+    <title>Shared Worlds, Private Minds: Structured Memory for Long-Form Writing as World Creation</title>
+    <updated>2026-09-26T09:24:22Z</updated>
+    <link href="https://arxiv.org/abs/2609.32401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents that write long-form fiction need an explicit memory of the evolving storyworld to keep new events consistent with established facts. Such memory must keep heterogeneous narrative information distinct, integrate story developments across granularities, and recover dependencies that a writing request leaves implicit. We present NarraWorld, a structured memory system for long-form writing that treats memory construction as world creation. From a shared evidence-grounded graph, NarraWorld derives four connected views: world facts, per-character beliefs, open developments, and hypothetical branches (possible-world continuations). Hierarchical aggregation with atomic closure consolidates events into scenes, plotlines, and plots, keeping each higher-level node traceable to its constituent source spans. For retrieval, planned reconstruction infers a query's dependencies from the current narrative situation and a preview of memory, then assembles the relevant records within a token budget. Across three writing benchmarks, NarraWorld achieves the strongest aggregate results. Its memory also transfers to situated role-playing and largely preserves recall on a general-purpose long-term memory benchmark, paving the way for agents that sustain coherent storyworlds across diverse narrative tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T09:24:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Qiuyu Tian</name>
+    </author>
+    <author>
+      <name>Xiaowen Gu</name>
+    </author>
+    <author>
+      <name>Hang Su</name>
+    </author>
+    <author>
+      <name>Jianghan Chao</name>
+    </author>
+    <author>
+      <name>Haojie Yin</name>
+    </author>
+    <author>
+      <name>Fan Guo</name>
+    </author>
+    <author>
+      <name>Xin Zhang</name>
+    </author>
+    <author>
+      <name>Jinjing Shen</name>
+    </author>
+    <author>
+      <name>Ewing Luo</name>
+    </author>
+    <author>
+      <name>Youyong Kong</name>
+    </author>
+    <author>
+      <name>Yingce Xia</name>
+    </author>
+    <author>
+      <name>Zequn Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.39661v1</id>
+    <title>The Evolution of Attention in Large Language Models: Mechanisms, Trade-offs, and Emerging Trends</title>
+    <updated>2026-09-30T13:03:01Z</updated>
+    <link href="https://arxiv.org/abs/2609.39661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.39661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-attention gives LLMs fine-grained, query-dependent access to context, but dense token interactions incur quadratic prefill cost and a key--value cache growing with context length. Research thus spans explicit-memory compression, sparse access, recurrent state construction, structured state dynamics, and heterogeneous mechanism composition. This survey analyzes these developments as model-internal contextual memory. We introduce a five-dimensional lens---Memory Representation, Memory Update, Access, Readout, and Integration---describing what is represented, how it changes, what is query-eligible, how it is read, and how readouts form outputs. This lens compares overlapping research lines without imposing one computational model.
+  We reconstruct mechanism-level developments and architectural adoption using 59 release-level records from 14 major model lineages and 11 high-performing open-weight endpoints. First, explicit-memory and recurrent-state methods retain distinct interfaces but increasingly control overlapping memory functions. Second, heterogeneous architectures increasingly coordinate across network depth: layer-wise composition distributes complementary memory processing across representational stages, while cross-layer reuse carries selected memory and routing artifacts forward. Depth thus becomes a dimension along which contextual memory is constructed and managed. Third, these developments motivate a stateful multidimensional memory-routing hypothesis: persistent memory is organized across temporal scope, network depth, substrate type, and representation granularity, while coordinated Sparse Write and Sparse Read determine what is maintained and what contributes to each query. Overall, efficient sequence architecture design increasingly concerns the organization, lifecycle, and selective use of contextual memory rather than an isolated Attention operator.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T13:03:01Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhentao Tan</name>
+    </author>
+    <author>
+      <name>Jingyi Shen</name>
+    </author>
+    <author>
+      <name>Yanbo Li</name>
+    </author>
+    <author>
+      <name>Yao Liu</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Jieping Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.33015v1</id>
+    <title>SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory</title>
+    <updated>2026-10-08T05:17:23Z</updated>
+    <link href="https://arxiv.org/abs/2610.33015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.33015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory enables large language model (LLM) agents to maintain personalized and temporally coherent interactions, but repeated LLM inference for memory admission, extraction, and organization introduces substantial cost and latency. We present SLICE-Mem, a lightweight memory framework that combines salience-guided admission and predicate-centered information extraction. A compact classifier identifies user turns worth retaining, and a semantic-dependency-based extractor converts admitted turns into concise memory entries. This online pipeline requires no generative LLM calls, while cross-entry reconciliation is deferred to an offline consolidation stage. We evaluate SLICE-Mem on the weekly subset of Memora and LongMemEval-S using 8B and 30B Qwen backbones for memory construction and consolidation on both benchmarks. Compared with the generative-memory baseline MemOS under the Qwen3-30B configuration, SLICE-Mem's online pipeline achieves 46.60 versus 46.68 FAMA (Forgetting-Aware Memory Accuracy) on Memora Weekly and 56.8% versus 59.3% accuracy on LongMemEval-S, while reducing total LLM token consumption by 92.4% and 99.5%, respectively. These results demonstrate that SLICE-Mem can preserve useful evidence for long-term memory with substantially less reliance on LLM-based memory construction.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T05:17:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiaobin Chen</name>
+    </author>
+    <author>
+      <name>Dian Jin</name>
+    </author>
+    <author>
+      <name>Lin Shu</name>
+    </author>
+    <author>
+      <name>Defeng Sun</name>
+    </author>
+    <author>
+      <name>Xiaoming Tao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11920v1</id>
+    <title>Event-Centric Memory with Query-Aware Graph Augmentation for Long-Term Conversational Agents</title>
+    <updated>2026-10-08T13:17:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.11920v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11920v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For persistent and personalized conversational agents, memory systems can enable them to remember, update, and reason over long histories by storing past interactions and retrieving relevant information. Existing memory systems typically follow two paradigms: flat-structured memory and graph-based memory. The former is lightweight but leaves event relations and state updates implicit, while the latter explicitly models memory structure but incurs additional construction cost and introduces irrelevant relations over long histories. To address these limitations, we propose QGMem, a novel memory construction and activation framework motivated by human memory, in which experience is organized into events and query-relevant events are modeled by graph as working memory. QGMem converts long dialogue histories into event-indexed atomic memory units that preserve individual experiences and consolidates related units into dynamic memory traces that retain state trajectories and current states. When a query arrives, hybrid memory retrieval gathers complementary candidate memories, and query-aware reranking activates the most relevant units as a compact working memory. To expose relational dependencies in the working memory and support conflict-aware reasoning, QGMem organizes the working memory as a local graph, which is then encoded as a graph token and provided to the LLM together with the textual working memory to improve evidence utilization during answer generation. Experiments across six benchmarks validate the framework and show consistent gains in retrieval, multi-hop evidence composition, conflict resolution, and ultra-long dialogue reasoning with compact contexts and moderate inference cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:17:59Z</published>
+    <arxiv:comment>17 pages, 7 figures. Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yichen Liu</name>
+    </author>
+    <author>
+      <name>Chunfeng Yuan</name>
+    </author>
+    <author>
+      <name>Haowei Liu</name>
+    </author>
+    <author>
+      <name>Wenjuan Li</name>
+    </author>
+    <author>
+      <name>Zefeng Lin</name>
+    </author>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Xu Chen</name>
+    </author>
+    <author>
+      <name>Weiming Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.14940v1</id>
+    <title>Engram Neuron Inspired Adaptive Memorization for Lifelong Learning</title>
+    <updated>2026-10-10T14:11:13Z</updated>
+    <link href="https://arxiv.org/abs/2610.14940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.14940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lifelong learning enables artificial systems to adapt to changing environments. To achieve this, an effective artificial learner should dynamically reorganize past and new experiences, maintaining stability while enabling flexible knowledge integration. However, existing efforts primarily mitigate catastrophic forgetting, lacking the ability to adaptively update memory akin to biological systems. Here, by integrating the full memory life cycle of engram neurons into artificial learners, we propose a framework that constructs a structured memory from gradient representations, which regulates parameter updates and guides memory management. Through comprehensive evaluations on four benchmarks, our approach shows promising lifelong learning capability, maintaining stability over long task sequences and supporting flexible adaptation. Beyond the performance gains, our approach offers a computational perspective on robust and flexible lifelong learning, echoing mechanisms observed in biological memory systems.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-10T14:11:13Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Suiyang Jiang</name>
+    </author>
+    <author>
+      <name>Bomin Wang</name>
+    </author>
+    <author>
+      <name>Hangqi Zhou</name>
+    </author>
+    <author>
+      <name>Jianfeng Feng</name>
+    </author>
+    <author>
+      <name>Xiahai Zhuang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.24378v1</id>
+    <title>PACE-Mem: Prefix-Aware Complementary Evidence for Multimodal Agents</title>
+    <updated>2026-10-17T02:24:19Z</updated>
+    <link href="https://arxiv.org/abs/2610.24378v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.24378v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As multimodal agents accumulate experience, their long-term memories contain many similar observations of recurring scenes, actions, and entities. Answer quality depends on the evidence retrieved from these memories into the model's context. However, query-relevant memories may contain overlapping information, and a fixed retrieval depth may return too little or too much evidence for a given question. To address these challenges, we propose PACE-Mem, Prefix-Aware Complementary Evidence, which constructs a complementary evidence sequence and determines its length from the same selection trajectory. For structured memories, query-guided pooling combines records within each clip to obtain relevance scores and representations. Using these relevance scores and representations, maximal marginal relevance (MMR) selection balances query relevance against overlap with previously selected evidence. From the resulting score trajectory, a prefix-length selection algorithm determines retrieval depth by comparing length-normalized adjacent declines, accounting for both score changes and the amount of evidence accumulated. PACE-Mem is a training-free, plug-in retrieval method for clip-based agent memory systems, leaving memory construction and answer generation unchanged. Across three long-video benchmarks and two agent frameworks, PACE-Mem improves question-answering accuracy by an average of 1.6% over Adaptive-k, the strongest baseline at comparable mean retrieval depths. Further analysis reveals that jointly adding and removing evidence is associated with larger net accuracy gains than either change alone.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-17T02:24:19Z</published>
+    <arxiv:comment>10 pages, 5 figures. Code: https://github.com/Shidu-Ren/PACE-Mem</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shidu Ren</name>
+    </author>
+    <author>
+      <name>Rong-cheng Tu</name>
+    </author>
+    <author>
+      <name>Hang Zhou</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.34450v1</id>
+    <title>EvolveMAS: A Unified Self-Evolution Framework for Decentralized Multi-Agent Systems</title>
+    <updated>2026-10-25T17:09:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.34450v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.34450v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decentralized multi-agent systems (MAS) enable large language model agents to interact without centralized control. Agents need to adapt to other agents at test time and reuse accumulated experience to refine their interaction strategies for future interactions across cooperative, mixed-motive, and adversarial settings. However, existing approaches often develop adaptation mechanisms for particular interaction settings. This raises a central question: how can decentralized MAS support test-time adaptation and reliable experience reuse across interaction settings? We propose EvolveMAS, a unified self-evolution framework that supports experience-driven adaptation within and across episodes. EvolveMAS pairs each main agent with a dedicated MemoryAgent for test-time memory governance, which maintains isolated Structured Memory outside the main agent's reasoning context. EvolveMAS organizes adaptation into two complementary processes: Within-Episode Online Adaptation and Cross-Episode Knowledge Evolution. During Within-Episode Online Adaptation, MemoryAgent updates episodic, semantic, and working memory from interaction evidence to inform subsequent actions. During Cross-Episode Knowledge Evolution, the main agent uses memory and episode outcomes to distill reusable interaction knowledge comprising partner profiles and interaction strategies for subsequent episodes. Across five benchmarks and six evaluation configurations spanning the three interaction settings, EvolveMAS achieves the highest normalized average score of 77.2 among the compared methods. Ablations show that test-time memory governance and cross-episode knowledge reuse both improve performance. Interaction traces further illustrate how updated memory and distilled knowledge guide subsequent interactions. These results support experience-driven adaptation in decentralized MAS without updating model parameters.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-25T17:09:49Z</published>
+    <arxiv:comment>27 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Yalun Wu</name>
+    </author>
+    <author>
+      <name>Qiwei Ma</name>
+    </author>
+    <author>
+      <name>Bingbing Xu</name>
+    </author>
+    <author>
+      <name>Dan Zhang</name>
+    </author>
+    <author>
+      <name>Long Bai</name>
+    </author>
+    <author>
+      <name>Boyang Wang</name>
+    </author>
+    <author>
+      <name>Jiatong Li</name>
+    </author>
+    <author>
+      <name>Zheqi Lv</name>
+    </author>
+    <author>
+      <name>Shaozu Yuan</name>
+    </author>
+    <author>
+      <name>Peiying Wang</name>
+    </author>
+    <author>
+      <name>Jiawei Wang</name>
+    </author>
+    <author>
+      <name>An Zhang</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.04196v1</id>
+    <title>DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation</title>
+    <updated>2026-11-03T02:30:53Z</updated>
+    <link href="https://arxiv.org/abs/2611.04196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.04196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Frontier LLM agents can turn known vulnerabilities into working exploits, but are costly and often access-restricted due to their potential for malicious use. Open-weight models offer a more accessible alternative, but struggle to maintain progress across long exploitation chains. They also often fail to apply relevant security knowledge at the appropriate stage and in the right context to identify and evaluate promising attack directions. To address these limitations, we propose DoGNAVY-Exploit, a multi-agent harness built around two complementary designs: stage-aware decomposition with progressive expert knowledge disclosure, and hierarchical orchestration with parallel exploration. Specifically, DoGNAVY-Exploit uses configurable milestones to recast long-horizon exploitation as short, verifiable capability transitions and provides only the knowledge relevant to each stage. Within each milestone, a hierarchical architecture separates strategic planning from parallel execution: a planner proposes diverse attack routes, executors test them concurrently, and a controller accepts progress only when supported by runtime evidence. A shared structured memory consolidates verified facts, artifacts, replay steps, and failed routes across branches, allowing agents to build on collective progress and carry validated knowledge into subsequent milestones. In controlled benchmark environments, DoGNAVY-Exploit with GLM-5.2 achieves 97.5% Pass@1 on Cybench, and 97.5% zero-day and 100% one-day Pass@1 on CVE-Bench. On ExploitGym, it solves 79 tasks with GLM-5.2 and 157 with GLM-5.3, while the corresponding public Claude Code baselines solve 39 and 130 tasks, respectively. Ablation results further demonstrate that the stage-aware orchestration, expert knowledge, parallel exploration, and memory designs can substantially improve the exploitation capabilities of open-weight agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-03T02:30:53Z</published>
+    <arxiv:comment>14 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuxuan Wang</name>
+    </author>
+    <author>
+      <name>Dadi Guo</name>
+    </author>
+    <author>
+      <name>Weijie Guo</name>
+    </author>
+    <author>
+      <name>Zikai Xu</name>
+    </author>
+    <author>
+      <name>Chen Lu</name>
+    </author>
+    <author>
+      <name>Yizhe Zhuang</name>
+    </author>
+    <author>
+      <name>Peng Huang</name>
+    </author>
+    <author>
+      <name>Yuejin Xie</name>
+    </author>
+    <author>
+      <name>Guopeng Lin</name>
+    </author>
+    <author>
+      <name>Xuangan Xiao</name>
+    </author>
+    <author>
+      <name>Shipei Qu</name>
+    </author>
+    <author>
+      <name>Dongrui Liu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,65 @@
+{
+  "exclusoes": [
+    {
+      "id": "X1",
+      "codigo": "E4",
+      "campo": "ti",
+      "termos": [
+        "video",
+        "manipulation",
+        "motion",
+        "rendering",
+        "geometry",
+        "visual generation"
+      ],
+      "justificativa": "Vídeo, manipulação robótica, movimento, renderização, geometria e geração visual no título indicam modalidade não textual ou domínio físico como objeto principal (E4). Candidatos com 0 POS."
+    },
+    {
+      "id": "X2",
+      "codigo": "E9",
+      "campo": "ti",
+      "termos": [
+        "quantum"
+      ],
+      "justificativa": "Computação ou física quântica no título: fora do tema (E9). Candidato com 0 POS."
+    }
+  ],
+  "rejeitados": [
+    {
+      "termo": "scene, scenes",
+      "motivo": "Polissêmico: no título removeu Scene-Aware Memory Discrimination (memória textual pessoal com avaliação direta da escrita)."
+    },
+    {
+      "termo": "geometric",
+      "motivo": "Polissêmico (sentido matemático): removeu Agent-Dice (atualização de conhecimento)."
+    },
+    {
+      "termo": "optimizer, gradients",
+      "motivo": "Polissêmico: otimizador de prompts e memória de agentes otimizada; não denota memória paramétrica."
+    },
+    {
+      "termo": "world models, world",
+      "motivo": "Removeria Masked Diffusion Language Models ... Text-Based World Models (possível comparador) e títulos com real-world."
+    },
+    {
+      "termo": "gpu, kernel, residual, attention, transformer",
+      "motivo": "Mencionados de passagem em estudos de memória textual (ex.: avaliação de memória com deprecação, memória pessoal gerida pelo kernel)."
+    },
+    {
+      "termo": "spatial, image, frames, reconstruction",
+      "motivo": "Aparecem em estudos multimodais cuja memória pode ser textual; deixados para a triagem codificada."
+    },
+    {
+      "termo": "sumi",
+      "motivo": "Nome próprio (SUMI/Sumi), não denota critério."
+    },
+    {
+      "termo": "demais candidatos genéricos (preserving, short, tokens, due, ...)",
+      "motivo": "Não denotam critério de exclusão; refletem só o tamanho pequeno da amostra rotulada."
+    },
+    {
+      "termo": "qualquer termo aplicado ao resumo",
+      "motivo": "Em teste (X2/X3 em ti+abs), 112 remoções incluíram estudos de memória textual (Danus, SAGE, MemEmo, Structured State Reconciliation, Don't Retrain, Align)."
+    }
+  ]
+}

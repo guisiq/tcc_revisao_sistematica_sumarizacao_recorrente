@@ -1,0 +1,31 @@
+{
+  "observacao": "Parâmetros da triagem codificada v4, lidos por scripts/triagem_v4.cs. As regras de classificação estão em codigos_v4.md e no próprio script; o modelo apenas codifica características.",
+  "dados": "dados/execucao_v4_2026-11-19",
+  "chaves_triagem": "analise_termos/chaves_apos_exclusao.txt",
+  "livro_codigos": "protocolo/codigos_v4.md",
+  "protocolo_busca": "protocolo/protocolo_v4.json",
+  "resultados": "resultados/v4",
+  "etapa1": {
+    "registros_por_requisicao": 20,
+    "limite_creditos": 150,
+    "tokens_saida_estimados_por_registro": 180
+  },
+  "etapa2": {
+    "max_caracteres_texto": 100000,
+    "limite_creditos": 400,
+    "tokens_saida_estimados": 2500,
+    "tamanho_minimo_trecho": 20,
+    "tamanho_maximo_trecho": 400
+  },
+  "texto_integral": {
+    "url_html": "https://arxiv.org/html/{id}{versao}",
+    "url_pdf": "https://arxiv.org/pdf/{id}{versao}",
+    "intervalo_segundos": 3,
+    "observacao": "Usa a mesma versão do registro coletado. Prefere o HTML (LaTeXML) e recorre ao PDF quando não há HTML. Remove bibliografia; mantém apêndices."
+  },
+  "llm": {
+    "politica_modelo": "somente os modelos de menor preço por token listados pelo Copilot SDK (entrada + saída); empate resolvido por ordem alfabética do id",
+    "reserva_por_requisicao": 1.5,
+    "custo_minimo_por_requisicao": 1
+  }
+}

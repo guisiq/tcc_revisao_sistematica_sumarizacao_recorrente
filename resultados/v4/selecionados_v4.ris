@@ -1,0 +1,181 @@
+TY  - JOUR
+TI  - Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory
+AU  - Sizhe Yuen
+AU  - Francisco Gomez Medina
+AU  - Ting Su
+AU  - Yali Du
+AU  - Adam J. Sobey
+PY  - 2025
+DA  - 2025-08-12
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.08997v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Share: Selective Memory for Efficient Parallel Agentic Systems
+AU  - Joseph Fioresi
+AU  - Parth Parag Kulkarni
+AU  - Ashmal Vayani
+AU  - Song Wang
+AU  - Mubarak Shah
+PY  - 2026
+DA  - 2026-02-05
+JO  - arXiv
+UR  - https://arxiv.org/abs/2602.05965v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning
+AU  - Kehao Zhang
+AU  - Shangtong Gui
+AU  - Sheng Yang
+AU  - Wei Chen
+AU  - Yang Feng
+PY  - 2026
+DA  - 2026-02-13
+JO  - arXiv
+UR  - https://arxiv.org/abs/2602.18493v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - MemReader: From Passive to Active Extraction for Long-Term Agent Memory
+AU  - Jingyi Kang
+AU  - Chunyu Li
+AU  - Ding Chen
+AU  - Bo Tang
+AU  - Feiyu Xiong
+AU  - Zhiyu Li
+PY  - 2026
+DA  - 2026-04-09
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.07877v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learning
+AU  - Yubo Wang
+AU  - Qiuyu Zhao
+AU  - Zenghui Sun
+AU  - Shichao Dong
+AU  - Jinsong Lan
+AU  - Xiaoyong Zhu
+AU  - Haoyang Li
+AU  - Bo Zheng
+AU  - Lei Chen
+PY  - 2026
+DA  - 2026-07-15
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.20553v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking
+AU  - Chunggi Lee
+AU  - Hanspeter Pfister
+PY  - 2026
+DA  - 2026-09-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.01828v1
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - MoM: Memory of Memory
+AU  - Bowen Qin
+AU  - Yao Lu
+PY  - 2026
+DA  - 2026-09-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.25054v1
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue
+AU  - Haobo Zheng
+AU  - Tan Tang
+AU  - Yan Chen
+AU  - Weijie Wang
+AU  - Yingcai Wu
+PY  - 2026
+DA  - 2026-09-22
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.26780v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - CoEM: Empowering Long-Context Reasoning with Commit-on-Evidence Memory
+AU  - Jingguang Li
+AU  - Yebo Wu
+AU  - Zuyi Guo
+AU  - Kailang Ma
+AU  - Xianjie Dai
+AU  - Han Zheng
+AU  - Benwang Chen
+AU  - Li Li
+AU  - Can Rong
+AU  - Heye Huang
+PY  - 2026
+DA  - 2026-09-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.36935v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control
+AU  - Tao Hwang
+AU  - Yishi Diao
+PY  - 2026
+DA  - 2026-09-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.36976v2
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - MARS: Memory-Aware Routing for Session-Level LLM Assistants
+AU  - Minghan Wang
+AU  - Jinhang Zuo
+AU  - Zhongxiang Dai
+AU  - Zhiyong Wang
+AU  - Fang Kong
+PY  - 2026
+DA  - 2026-10-16
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.23583v1
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - MemRevise: A Self-Revising Memory for Conversational Search
+AU  - Mohammed Ali
+AU  - Abdelrahman Abdallah
+AU  - Adam Jatowt
+PY  - 2026
+DA  - 2026-10-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.24672v1
+N1  - triagem v4: NUCLEO
+ER  - 
+
+TY  - JOUR
+TI  - Accept Changes, Reject Attacks: Robust Memory Management for LLM Agents
+AU  - Runze Zhao
+AU  - Dongruo Zhou
+AU  - Sumit Kumar Jha
+AU  - Nathaniel D. Bastian
+AU  - Ankit Shah
+PY  - 2026
+DA  - 2026-10-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.41056v1
+N1  - triagem v4: NUCLEO
+ER  - 
+

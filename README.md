@@ -6,6 +6,18 @@ do Trabalho de Conclusão de Curso de Guilherme Henrique Siqueira Lopes
 para auditar e reproduzir a busca: protocolo, *snapshots* das respostas da API,
 decisões da triagem, revisão final e *scripts*.
 
+**Versão v2.0.0 (vigente):** a seleção usada no artigo vem da
+[execução v4](#execução-v4-busca-por-facetas-exclusões-por-termos-e-triagem-codificada)
+(busca de 19/11/2026, triagem codificada e classes por perfil). As seções
+seguintes descrevem a execução de 12/11/2026, publicada na v1.0.0 e mantida
+para auditoria.
+
+- [Relatório da triagem v4](resultados/v4/triagem_v4.md)
+- [Inventário dos 696 registros triados na v4 (CSV)](resultados/v4/triagem_v4.csv)
+- [Núcleo da v4 (RIS, para o Zotero)](resultados/v4/selecionados_v4.ris)
+
+Execução de 12/11/2026 (v1.0.0):
+
 - [Relatório e metodologia](resultados/mapeamento_focado_trabalhos_relacionados_2025_2026.md)
 - [Inventário dos 158 candidatos (CSV)](resultados/mapeamento_focado_inventario_2025_2026.csv)
 - [Estudos selecionados (RIS, para o Zotero)](resultados/mapeamento_focado_selecionados_2025_2026.ris)
@@ -88,6 +100,82 @@ do arXiv registrada no *snapshot*). Itens incluídos têm `tipo` (`NUCLEO` ou
 `COMPARADOR`) e os campos `representacao`, `atualizacao`, `modelos`,
 `avaliacao` e `paradigmas`. O *script* falha se faltar decisão CORE, campo
 obrigatório ou referência à versão verificada.
+
+### Execução v4: busca por facetas, exclusões por termos e triagem codificada
+
+O protocolo [`protocolo/protocolo_v4.json`](protocolo/protocolo_v4.json) busca
+por facetas (memória estruturada, atualização, escritor compacto, avaliação do
+estado, paradigma gerativo) na janela 2025-07-01 a 2026-11-19, com 12
+controles: os 10 incluídos na execução anterior, Intrinsic Memory Agents e
+Supersede. Os controles orientaram o vocabulário das consultas; sua recuperação
+não é validação independente. O arXiv aplica curingas ao índice radicalizado,
+por isso os prefixos param no radical (`consolid*`, `templat*`, `convers*`,
+`distil*`); prefixos mais longos, como `consolidat*`, quase não recuperam nada.
+
+As exclusões por termos ficam em
+[`protocolo/exclusoes_v4.json`](protocolo/exclusoes_v4.json) e são derivadas
+pela análise cruzada de termos entre os rótulos da execução anterior
+(incluídos/controles × excluídos). Um termo é candidato quando não aparece em
+nenhum positivo, aparece em ao menos três excluídos e não é mais frequente
+entre os CONTEXT não revisados do que entre os excluídos. É adotado apenas se
+denota um código E2–E9 sem outro sentido usual em PLN; aplica-se ao título.
+O *script* falha se um termo adotado não constar da lista de candidatos ou
+remover algum controle.
+
+```powershell
+dotnet run scripts\busca_focada.cs -- coletar --protocolo protocolo\protocolo_v4.json --dados dados\execucao_v4_2026-11-19
+dotnet run scripts\analise_termos.cs -- analisar --protocolo protocolo\protocolo_v4.json --exclusoes protocolo\exclusoes_v4.json --rotulos dados\execucao_focada_estrita_2026-11-12 --dados dados\execucao_v4_2026-11-19
+```
+
+A análise grava em `dados\execucao_v4_2026-11-19\analise_termos\` o relatório
+`analise_termos.md` (candidatos, termos rejeitados com motivo, efeito por grupo
+e registros removidos), `candidatos_exclusao.csv`, o *snapshot*
+`controles.xml` e `chaves_apos_exclusao.txt`, que é a entrada da triagem.
+
+#### Triagem codificada v4
+
+O modelo não decide a inclusão: ele atribui valores S/I/N às características
+C1–C7 e códigos de exclusão E2–E10, definidos no livro de códigos
+[`protocolo/codigos_v4.md`](protocolo/codigos_v4.md). O *script*
+[`scripts/triagem_v4.cs`](scripts/triagem_v4.cs) classifica os registros por
+regras fixas. Os códigos E7 (memória interna do modelo) e E10 (saída
+estruturada estática) foram separados de E9 pela análise cruzada das
+exclusões da execução anterior. Os parâmetros estão em
+[`protocolo/triagem_v4.json`](protocolo/triagem_v4.json).
+
+1. **Etapa 1 (título e resumo, 20 registros por requisição):** cada registro
+   recebe um grupo: A, B, P (seguem para o texto integral), C, D ou X (encerram
+   na etapa 1).
+2. **Texto integral:** usa a mesma versão do arXiv. O *script* prefere o HTML
+   e recorre ao PDF quando não há HTML; remove a bibliografia e grava o texto e
+   o manifesto com SHA-256.
+3. **Etapa 2 (uma requisição por artigo, até 100 mil caracteres):** cada `S`
+   exige um trecho literal. O relatório confere o trecho no texto salvo e
+   rebaixa a `I` todo `S` sem trecho encontrado; só então classifica o estudo.
+4. **Classes por perfil:** o **núcleo** exige C1–C4 = S, C5 = S (escritor
+   compacto) e C6 = S (avaliação direta do estado). Os demais estudos lidos no
+   texto integral recebem uma classe própria (pendente, comparador gerativo,
+   escritor compacto, avaliação do estado, memória estruturada ou excluídos),
+   registrada no relatório (ver [`codigos_v4.md`](protocolo/codigos_v4.md)).
+   Resultado: 13 estudos no núcleo.
+
+Os textos integrais (`triagem_v4/textos/*.txt`) não são versionados, por
+respeito às licenças dos artigos; o manifesto com URL, versão e SHA-256 de
+cada texto está em `textos/manifesto.jsonl`, e o comando `textos` os
+reconstitui antes do `relatorio`.
+
+```powershell
+dotnet run scripts\triagem_v4.cs -- resumo [--estimar]
+dotnet run scripts\triagem_v4.cs -- textos
+dotnet run scripts\triagem_v4.cs -- texto [--estimar] [--paralelo 4]
+dotnet run scripts\triagem_v4.cs -- relatorio
+```
+
+`resumo` e `texto` retomam a partir das codificações gravadas em
+`dados\execucao_v4_2026-11-19\triagem_v4\` (`etapa1.jsonl`, `etapa2.jsonl`)
+e registram o custo em `custo_llm.jsonl`. `relatorio` não consulta a rede nem
+o modelo; gera `resultados\v4\triagem_v4.md`, `triagem_v4.csv` (todos os
+registros, com códigos, grupo, motivo e classe final) e `selecionados_v4.ris`.
 
 ## Origem
 

@@ -3,3 +3,6 @@ dados/**/lotes/
 bin/
 obj/
 *.tmp
+
+# Textos integrais extraídos do arXiv (licenças dos autores); reconstituídos por `triagem_v4.cs textos` e conferidos pelo manifesto
+dados/**/triagem_v4/textos/*.txt

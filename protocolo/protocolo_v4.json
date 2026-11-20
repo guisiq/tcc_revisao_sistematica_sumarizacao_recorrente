@@ -1,0 +1,103 @@
+{
+  "versao": "v4",
+  "descricao": "Busca por facetas (memória estruturada, atualização, escritor compacto, avaliação do estado, paradigma gerativo). Exclusões por termos ficam em exclusoes_v4.json e são aplicadas após a coleta.",
+  "inicio": "2025-07-01",
+  "fim": "2026-11-19",
+  "fonte": "arXiv API",
+  "pagina": 1000,
+  "intervalo_segundos": 4,
+  "nota_controles": "Os controles foram usados para ajustar as consultas; a recuperação deles não é validação independente.",
+  "consultas": [
+    {
+      "id": "E1",
+      "objetivo": "Memória estruturada nomeada no título com atualização; ou no resumo com atualização e modelo compacto ou avaliação do estado.",
+      "expressao": "((ti:\"structured memory\" OR ti:\"structured memories\" OR ti:\"structured contextual memory\" OR ti:\"memory schema\" OR ti:\"typed memory\" OR ti:\"memory graph\" OR ti:\"graph memory\" OR ti:\"graph-based memory\" OR ti:\"JSON memory\" OR ti:\"memory template\" OR ti:\"memory records\" OR ti:\"structured state\" OR ti:\"entity memory\" OR ti:\"memory slots\" OR ti:\"key-value memory\" OR ti:\"tabular memory\" OR ti:\"memory table\" OR ti:\"memory items\" OR ti:\"memory units\" OR ti:\"atomic memory\" OR ti:\"memory entries\" OR ti:\"intention store\" OR ti:\"typed store\") AND (abs:updat* OR abs:increment* OR abs:evolv* OR abs:maint* OR abs:revis* OR abs:consolid* OR abs:supersed* OR abs:overwrit* OR abs:edit* OR abs:CRUD OR abs:rewrit* OR abs:lifecycle)) OR ((abs:\"structured memory\" OR abs:\"structured memories\" OR abs:\"structured contextual memory\" OR abs:\"memory schema\" OR abs:\"typed memory\" OR abs:\"memory graph\" OR abs:\"graph memory\" OR abs:\"graph-based memory\" OR abs:\"JSON memory\" OR abs:\"memory template\" OR abs:\"memory records\" OR abs:\"structured state\" OR abs:\"entity memory\" OR abs:\"memory slots\" OR abs:\"key-value memory\" OR abs:\"tabular memory\" OR abs:\"memory table\" OR abs:\"memory items\" OR abs:\"memory units\" OR abs:\"atomic memory\" OR abs:\"memory entries\" OR abs:\"intention store\" OR abs:\"typed store\") AND (abs:updat* OR abs:increment* OR abs:evolv* OR abs:maint* OR abs:revis* OR abs:consolid* OR abs:supersed* OR abs:overwrit* OR abs:edit* OR abs:CRUD OR abs:rewrit* OR abs:lifecycle) AND ((ti:\"small language model\" OR ti:\"small language models\" OR ti:SLM OR ti:SLMs OR ti:\"small model\" OR ti:\"small models\" OR ti:\"small open model\" OR ti:compact OR ti:lightweight OR ti:\"on-device\" OR ti:0.5B OR ti:0.6B OR ti:1B OR ti:1.5B OR ti:1.7B OR ti:2B OR ti:3B OR ti:4B OR abs:\"small language model\" OR abs:\"small language models\" OR abs:SLM OR abs:SLMs OR abs:\"small model\" OR abs:\"small models\" OR abs:\"small open model\" OR abs:compact OR abs:lightweight OR abs:\"on-device\" OR abs:0.5B OR abs:0.6B OR abs:1B OR abs:1.5B OR abs:1.7B OR abs:2B OR abs:3B OR abs:4B) OR (abs:\"knowledge update\" OR abs:supersed* OR abs:stale OR abs:outdated OR abs:\"memory quality\" OR abs:\"memory accuracy\" OR abs:\"memory fidelity\" OR abs:\"update accuracy\" OR abs:\"state accuracy\" OR abs:\"memory correctness\" OR abs:\"memory hallucination\" OR abs:\"write accuracy\" OR abs:\"memory evaluation\" OR abs:\"memory F1\")))"
+    },
+    {
+      "id": "E2",
+      "objetivo": "Gestão/atualização de memória com escritor compacto e representação estruturada.",
+      "expressao": "(ti:\"memory update\" OR ti:\"memory updating\" OR ti:\"update memory\" OR ti:\"updating memory\" OR ti:\"memory evolution\" OR ti:\"evolving memory\" OR ti:\"memory maintenance\" OR ti:\"memory consolidation\" OR ti:\"memory editing\" OR ti:\"memory operations\" OR ti:\"memory management\" OR ti:\"memory manager\" OR ti:\"memory writing\" OR ti:\"write memory\" OR ti:\"memory revision\" OR ti:\"self-maintained memory\" OR ti:\"knowledge update\" OR ti:\"memory extraction\" OR ti:\"memory construction\" OR ti:\"memory admission\" OR abs:\"memory update\" OR abs:\"memory updating\" OR abs:\"update memory\" OR abs:\"updating memory\" OR abs:\"memory evolution\" OR abs:\"evolving memory\" OR abs:\"memory maintenance\" OR abs:\"memory consolidation\" OR abs:\"memory editing\" OR abs:\"memory operations\" OR abs:\"memory management\" OR abs:\"memory manager\" OR abs:\"memory writing\" OR abs:\"write memory\" OR abs:\"memory revision\" OR abs:\"self-maintained memory\" OR abs:\"knowledge update\" OR abs:\"memory extraction\" OR abs:\"memory construction\" OR abs:\"memory admission\") AND (ti:\"small language model\" OR ti:\"small language models\" OR ti:SLM OR ti:SLMs OR ti:\"small model\" OR ti:\"small models\" OR ti:\"small open model\" OR ti:compact OR ti:lightweight OR ti:\"on-device\" OR ti:0.5B OR ti:0.6B OR ti:1B OR ti:1.5B OR ti:1.7B OR ti:2B OR ti:3B OR ti:4B OR abs:\"small language model\" OR abs:\"small language models\" OR abs:SLM OR abs:SLMs OR abs:\"small model\" OR abs:\"small models\" OR abs:\"small open model\" OR abs:compact OR abs:lightweight OR abs:\"on-device\" OR abs:0.5B OR abs:0.6B OR abs:1B OR abs:1.5B OR abs:1.7B OR abs:2B OR abs:3B OR abs:4B) AND (ti:structur* OR ti:schema* OR ti:typed OR ti:JSON OR ti:entit* OR ti:graph* OR ti:templat* OR ti:\"key-value\" OR ti:slot* OR ti:record* OR ti:attribut* OR ti:tripl* OR abs:structur* OR abs:schema* OR abs:typed OR abs:JSON OR abs:entit* OR abs:graph* OR abs:templat* OR abs:\"key-value\" OR abs:slot* OR abs:record* OR abs:attribut* OR abs:tripl*)"
+    },
+    {
+      "id": "E3",
+      "objetivo": "Gestão/atualização de memória com avaliação direta do conteúdo atualizado (knowledge update, supersessão, memória obsoleta).",
+      "expressao": "(ti:\"memory update\" OR ti:\"memory updating\" OR ti:\"update memory\" OR ti:\"updating memory\" OR ti:\"memory evolution\" OR ti:\"evolving memory\" OR ti:\"memory maintenance\" OR ti:\"memory consolidation\" OR ti:\"memory editing\" OR ti:\"memory operations\" OR ti:\"memory management\" OR ti:\"memory manager\" OR ti:\"memory writing\" OR ti:\"write memory\" OR ti:\"memory revision\" OR ti:\"self-maintained memory\" OR ti:\"knowledge update\" OR ti:\"memory extraction\" OR ti:\"memory construction\" OR ti:\"memory admission\" OR abs:\"memory update\" OR abs:\"memory updating\" OR abs:\"update memory\" OR abs:\"updating memory\" OR abs:\"memory evolution\" OR abs:\"evolving memory\" OR abs:\"memory maintenance\" OR abs:\"memory consolidation\" OR abs:\"memory editing\" OR abs:\"memory operations\" OR abs:\"memory management\" OR abs:\"memory manager\" OR abs:\"memory writing\" OR abs:\"write memory\" OR abs:\"memory revision\" OR abs:\"self-maintained memory\" OR abs:\"knowledge update\" OR abs:\"memory extraction\" OR abs:\"memory construction\" OR abs:\"memory admission\") AND (abs:\"knowledge update\" OR abs:supersed* OR abs:stale OR abs:outdated OR abs:\"memory quality\" OR abs:\"memory accuracy\" OR abs:\"memory fidelity\" OR abs:\"update accuracy\" OR abs:\"state accuracy\" OR abs:\"memory correctness\" OR abs:\"memory hallucination\" OR abs:\"write accuracy\" OR abs:\"memory evaluation\" OR abs:\"memory F1\")"
+    },
+    {
+      "id": "E4",
+      "objetivo": "Modelos de linguagem por difusão ou não autorregressivos aplicados a memória, estado, planejamento ou saída estruturada em agentes/diálogo.",
+      "expressao": "(ti:\"diffusion language model\" OR ti:\"diffusion language models\" OR ti:dLLM OR ti:dLLMs OR ti:\"masked diffusion\" OR ti:\"block diffusion\" OR ti:\"discrete diffusion\" OR ti:\"non-autoregressive\" OR abs:\"diffusion language model\" OR abs:\"diffusion language models\" OR abs:dLLM OR abs:dLLMs OR abs:\"masked diffusion\" OR abs:\"block diffusion\" OR abs:\"discrete diffusion\" OR abs:\"non-autoregressive\") AND (abs:memory OR abs:state OR abs:planning OR abs:JSON OR abs:\"structured output\" OR abs:\"structured generation\" OR abs:summarization) AND (abs:agent* OR abs:summar* OR abs:dialogue OR abs:convers* OR abs:\"multi-turn\")"
+    },
+    {
+      "id": "E5",
+      "objetivo": "Sumarização incremental/recorrente ou rastreamento de estado de entidades com LLM e atualização.",
+      "expressao": "(ti:\"incremental summarization\" OR ti:\"recurrent summarization\" OR ti:\"recursive summarization\" OR ti:\"entity summarization\" OR ti:\"update summarization\" OR ti:\"progressive summarization\" OR ti:\"GU-JSON\" OR ti:SUMIE OR ti:\"entity state\" OR ti:\"entity states\" OR abs:\"incremental summarization\" OR abs:\"recurrent summarization\" OR abs:\"recursive summarization\" OR abs:\"entity summarization\" OR abs:\"update summarization\" OR abs:\"progressive summarization\" OR abs:\"GU-JSON\" OR abs:SUMIE OR abs:\"entity state\" OR abs:\"entity states\") AND (abs:\"language model\" OR abs:\"language models\" OR abs:LLM OR abs:LLMs OR abs:agent*) AND (abs:updat* OR abs:increment* OR abs:evolv* OR abs:maint* OR abs:revis* OR abs:consolid* OR abs:supersed* OR abs:overwrit* OR abs:edit* OR abs:CRUD OR abs:rewrit* OR abs:lifecycle)"
+    },
+    {
+      "id": "E6",
+      "objetivo": "Estado ou memória em JSON/esquema tipado, atualizado por modelo compacto.",
+      "expressao": "(ti:JSON OR ti:schema* OR ti:\"structured output\" OR ti:typed OR abs:JSON OR abs:schema* OR abs:\"structured output\" OR abs:typed) AND (abs:memory OR abs:\"dialogue state\" OR abs:\"entity state\" OR abs:\"agent state\" OR abs:\"structured state\" OR abs:\"state tracking\") AND (ti:\"small language model\" OR ti:\"small language models\" OR ti:SLM OR ti:SLMs OR ti:\"small model\" OR ti:\"small models\" OR ti:\"small open model\" OR ti:compact OR ti:lightweight OR ti:\"on-device\" OR ti:0.5B OR ti:0.6B OR ti:1B OR ti:1.5B OR ti:1.7B OR ti:2B OR ti:3B OR ti:4B OR abs:\"small language model\" OR abs:\"small language models\" OR abs:SLM OR abs:SLMs OR abs:\"small model\" OR abs:\"small models\" OR abs:\"small open model\" OR abs:compact OR abs:lightweight OR abs:\"on-device\" OR abs:0.5B OR abs:0.6B OR abs:1B OR abs:1.5B OR abs:1.7B OR abs:2B OR abs:3B OR abs:4B) AND (abs:updat* OR abs:increment* OR abs:evolv* OR abs:maint* OR abs:revis* OR abs:consolid* OR abs:supersed* OR abs:overwrit* OR abs:edit* OR abs:CRUD OR abs:rewrit* OR abs:lifecycle)"
+    },
+    {
+      "id": "E7",
+      "objetivo": "Gestor de memória compacto treinado (RL, destilação, adaptadores, ajuste fino).",
+      "expressao": "(ti:\"memory update\" OR ti:\"memory updating\" OR ti:\"update memory\" OR ti:\"updating memory\" OR ti:\"memory evolution\" OR ti:\"evolving memory\" OR ti:\"memory maintenance\" OR ti:\"memory consolidation\" OR ti:\"memory editing\" OR ti:\"memory operations\" OR ti:\"memory management\" OR ti:\"memory manager\" OR ti:\"memory writing\" OR ti:\"write memory\" OR ti:\"memory revision\" OR ti:\"self-maintained memory\" OR ti:\"knowledge update\" OR ti:\"memory extraction\" OR ti:\"memory construction\" OR ti:\"memory admission\" OR abs:\"memory update\" OR abs:\"memory updating\" OR abs:\"update memory\" OR abs:\"updating memory\" OR abs:\"memory evolution\" OR abs:\"evolving memory\" OR abs:\"memory maintenance\" OR abs:\"memory consolidation\" OR abs:\"memory editing\" OR abs:\"memory operations\" OR abs:\"memory management\" OR abs:\"memory manager\" OR abs:\"memory writing\" OR abs:\"write memory\" OR abs:\"memory revision\" OR abs:\"self-maintained memory\" OR abs:\"knowledge update\" OR abs:\"memory extraction\" OR abs:\"memory construction\" OR abs:\"memory admission\") AND (ti:\"small language model\" OR ti:\"small language models\" OR ti:SLM OR ti:SLMs OR ti:\"small model\" OR ti:\"small models\" OR ti:\"small open model\" OR ti:compact OR ti:lightweight OR ti:\"on-device\" OR ti:0.5B OR ti:0.6B OR ti:1B OR ti:1.5B OR ti:1.7B OR ti:2B OR ti:3B OR ti:4B OR abs:\"small language model\" OR abs:\"small language models\" OR abs:SLM OR abs:SLMs OR abs:\"small model\" OR abs:\"small models\" OR abs:\"small open model\" OR abs:compact OR abs:lightweight OR abs:\"on-device\" OR abs:0.5B OR abs:0.6B OR abs:1B OR abs:1.5B OR abs:1.7B OR abs:2B OR abs:3B OR abs:4B) AND (abs:\"reinforcement learning\" OR abs:distil* OR abs:\"fine-tuning\" OR abs:\"fine-tuned\" OR abs:finetun* OR abs:adapter OR abs:LoRA OR abs:supervised)"
+    },
+    {
+      "id": "E8",
+      "objetivo": "Memória estruturada com operações de atualização avaliadas por benchmark de ciclo de vida.",
+      "expressao": "(ti:\"structured memory\" OR ti:\"structured memories\" OR ti:\"structured contextual memory\" OR ti:\"memory schema\" OR ti:\"typed memory\" OR ti:\"memory graph\" OR ti:\"graph memory\" OR ti:\"graph-based memory\" OR ti:\"JSON memory\" OR ti:\"memory template\" OR ti:\"memory records\" OR ti:\"structured state\" OR ti:\"entity memory\" OR ti:\"memory slots\" OR ti:\"key-value memory\" OR ti:\"tabular memory\" OR ti:\"memory table\" OR ti:\"memory items\" OR ti:\"memory units\" OR ti:\"atomic memory\" OR ti:\"memory entries\" OR ti:\"intention store\" OR ti:\"typed store\" OR abs:\"structured memory\" OR abs:\"structured memories\" OR abs:\"structured contextual memory\" OR abs:\"memory schema\" OR abs:\"typed memory\" OR abs:\"memory graph\" OR abs:\"graph memory\" OR abs:\"graph-based memory\" OR abs:\"JSON memory\" OR abs:\"memory template\" OR abs:\"memory records\" OR abs:\"structured state\" OR abs:\"entity memory\" OR abs:\"memory slots\" OR abs:\"key-value memory\" OR abs:\"tabular memory\" OR abs:\"memory table\" OR abs:\"memory items\" OR abs:\"memory units\" OR abs:\"atomic memory\" OR abs:\"memory entries\" OR abs:\"intention store\" OR abs:\"typed store\") AND (ti:\"memory update\" OR ti:\"memory updating\" OR ti:\"update memory\" OR ti:\"updating memory\" OR ti:\"memory evolution\" OR ti:\"evolving memory\" OR ti:\"memory maintenance\" OR ti:\"memory consolidation\" OR ti:\"memory editing\" OR ti:\"memory operations\" OR ti:\"memory management\" OR ti:\"memory manager\" OR ti:\"memory writing\" OR ti:\"write memory\" OR ti:\"memory revision\" OR ti:\"self-maintained memory\" OR ti:\"knowledge update\" OR ti:\"memory extraction\" OR ti:\"memory construction\" OR ti:\"memory admission\" OR abs:\"memory update\" OR abs:\"memory updating\" OR abs:\"update memory\" OR abs:\"updating memory\" OR abs:\"memory evolution\" OR abs:\"evolving memory\" OR abs:\"memory maintenance\" OR abs:\"memory consolidation\" OR abs:\"memory editing\" OR abs:\"memory operations\" OR abs:\"memory management\" OR abs:\"memory manager\" OR abs:\"memory writing\" OR abs:\"write memory\" OR abs:\"memory revision\" OR abs:\"self-maintained memory\" OR abs:\"knowledge update\" OR abs:\"memory extraction\" OR abs:\"memory construction\" OR abs:\"memory admission\") AND (ti:benchmark OR ti:benchmarks OR ti:\"evaluation framework\" OR ti:lifecycle OR abs:benchmark OR abs:benchmarks OR abs:\"evaluation framework\" OR abs:lifecycle)"
+    }
+  ],
+  "controles": [
+    {
+      "nome": "AlpsBench",
+      "id_arxiv": "2603.26680"
+    },
+    {
+      "nome": "MemReader",
+      "id_arxiv": "2604.07877"
+    },
+    {
+      "nome": "DimMem",
+      "id_arxiv": "2605.15759"
+    },
+    {
+      "nome": "Prospective Intention Store (PIS)",
+      "id_arxiv": "2609.01272"
+    },
+    {
+      "nome": "AMU",
+      "id_arxiv": "2609.36976"
+    },
+    {
+      "nome": "MemLoRA",
+      "id_arxiv": "2512.04763"
+    },
+    {
+      "nome": "CMI-Mem",
+      "id_arxiv": "2607.20553"
+    },
+    {
+      "nome": "PGMem",
+      "id_arxiv": "2608.01708"
+    },
+    {
+      "nome": "The Bitter Lesson of Diffusion Language Models",
+      "id_arxiv": "2601.12979"
+    },
+    {
+      "nome": "DiffuPlan",
+      "id_arxiv": "2610.24717"
+    },
+    {
+      "nome": "Intrinsic Memory Agents",
+      "id_arxiv": "2508.08997"
+    },
+    {
+      "nome": "Supersede",
+      "id_arxiv": "2606.27472"
+    }
+  ],
+  "nota_curingas": "O arXiv aplica curingas sobre o índice com radicalização; prefixos foram limitados ao radical (ex.: consolid*, templat*, convers*, distil*)."
+}

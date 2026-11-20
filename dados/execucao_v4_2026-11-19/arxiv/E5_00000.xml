@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K4HvqqzAMZQqeoCrwXjbbwXNhR0</id>
+  <title>arXiv Query: search_query=( (ti:"incremental summarization" OR ti:"recurrent summarization" OR ti:"recursive summarization" OR ti:"entity summarization" OR ti:"update summarization" OR ti:"progressive summarization" OR ti:"GU-JSON" OR ti:SUMIE OR ti:"entity state" OR ti:"entity states" OR abs:"incremental summarization" OR abs:"recurrent summarization" OR abs:"recursive summarization" OR abs:"entity summarization" OR abs:"update summarization" OR abs:"progressive summarization" OR abs:"GU-JSON" OR abs:SUMIE OR abs:"entity state" OR abs:"entity states") AND (abs:"language model" OR abs:"language models" OR abs:LLM OR abs:LLMs OR abs:agent*) AND (abs:updat* OR abs:increment* OR abs:evolv* OR abs:maint* OR abs:revis* OR abs:consolid* OR abs:supersed* OR abs:overwrit* OR abs:edit* OR abs:CRUD OR abs:rewrit* OR abs:lifecycle) ) AND submittedDate:"202507010000 TO 202611192359"&amp;id_list=&amp;start=0&amp;max_results=1000</title>
+  <updated>2026-11-19T22:02:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=((ti:%22incremental+summarization%22+OR+(ti:%22recurrent+summarization%22+OR+(ti:%22recursive+summarization%22+OR+(ti:%22entity+summarization%22+OR+(ti:%22update+summarization%22+OR+(ti:%22progressive+summarization%22+OR+(ti:%22GU-JSON%22+OR+(ti:SUMIE+OR+(ti:%22entity+state%22+OR+(ti:%22entity+states%22+OR+(abs:%22incremental+summarization%22+OR+(abs:%22recurrent+summarization%22+OR+(abs:%22recursive+summarization%22+OR+(abs:%22entity+summarization%22+OR+(abs:%22update+summarization%22+OR+(abs:%22progressive+summarization%22+OR+(abs:%22GU-JSON%22+OR+(abs:SUMIE+OR+(abs:%22entity+state%22+OR+abs:%22entity+states%22)))))))))))))))))))+AND+((abs:%22language+model%22+OR+(abs:%22language+models%22+OR+(abs:LLM+OR+(abs:LLMs+OR+abs:agent*))))+AND+(abs:updat*+OR+(abs:increment*+OR+(abs:evolv*+OR+(abs:maint*+OR+(abs:revis*+OR+(abs:consolid*+OR+(abs:supersed*+OR+(abs:overwrit*+OR+(abs:edit*+OR+(abs:CRUD+OR+(abs:rewrit*+OR+abs:lifecycle)))))))))))))+AND+submittedDate:%22202507010000+TO+202611192359%22&amp;start=0&amp;max_results=1000&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1000</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.06677v2</id>
+    <title>Incremental Summarization for Customer Support via Progressive Note-Taking and Agent Feedback</title>
+    <updated>2025-10-09T03:15:43Z</updated>
+    <link href="https://arxiv.org/abs/2510.06677v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.06677v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an incremental summarization system for customer support agents that intelligently determines when to generate concise bullet notes during conversations, reducing agents' context-switching effort and redundant review. Our approach combines a fine-tuned Mixtral-8x7B model for continuous note generation with a DeBERTa-based classifier to filter trivial content. Agent edits refine the online notes generation and regularly inform offline model retraining, closing the agent edits feedback loop. Deployed in production, our system achieved a 3% reduction in case handling time compared to bulk summarization (with reductions of up to 9% in highly complex cases), alongside high agent satisfaction ratings from surveys. These results demonstrate that incremental summarization with continuous feedback effectively enhances summary quality and agent productivity at scale.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T06:05:58Z</published>
+    <arxiv:comment>Accepted at EMNLP 2025 Industry Track</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yisha Wu</name>
+    </author>
+    <author>
+      <name>Cen Mia Zhao</name>
+    </author>
+    <author>
+      <name>Yuanpei Cao</name>
+    </author>
+    <author>
+      <name>Xiaoqing Su</name>
+    </author>
+    <author>
+      <name>Yashar Mehdad</name>
+    </author>
+    <author>
+      <name>Mindy Ji</name>
+    </author>
+    <author>
+      <name>Claire Na Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20111v2</id>
+    <title>ABBEL: Learning Natural-Language Belief States for Memory-Efficient Interaction</title>
+    <updated>2026-06-04T03:41:38Z</updated>
+    <link href="https://arxiv.org/abs/2512.20111v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20111v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the time horizons of sequential decision-making tasks grow, keeping full interaction histories in model context becomes increasingly costly. Recent work reduces context lengths by instead conditioning decision-making agents on recursively updated natural-language summaries, which are concise and interpretable. However, they underperform agents with access to the full context, suggesting that they fail to generate sufficient summaries. To address this we propose ABBEL, a recursive summarization framework that isolates and directly supervises each summary's information contents in the form of explicit natural-language belief states. First, we analyze the belief states generated by frontier models under ABBEL across five domains, and verify that performance is often degraded due to omitting or incorrectly updating information. We also discover settings where models use memory inefficiently by retaining extraneous information. We target these limitations by fine-tuning with two RL-based methods: belief grading, which reduces update errors by rewarding belief generations based on their information content, and peak belief penalties, which encourage compressing the beliefs with the greatest memory footprints. We demonstrate that these methods significantly reduce the performance gap with full context models, and enable ABBEL to outperform prior memory agent work by 40% while using 67% of the memory. Our code is available at https://github.com/jakob-bjorner/optimal-explorer-dev</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-23T07:11:26Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Aly Lidayan</name>
+    </author>
+    <author>
+      <name>Jakob Bjorner</name>
+    </author>
+    <author>
+      <name>Satvik Golechha</name>
+    </author>
+    <author>
+      <name>Kartik Goyal</name>
+    </author>
+    <author>
+      <name>Alane Suhr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01885v3</id>
+    <title>Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents</title>
+    <updated>2026-07-23T06:23:36Z</updated>
+    <link href="https://arxiv.org/abs/2601.01885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents face fundamental limitations in long-horizon reasoning due to finite context windows, making effective memory management critical. Existing methods typically handle long-term memory (LTM) and short-term memory (STM) as separate components, relying on heuristics or auxiliary controllers, which limits adaptability and end-to-end optimization. In this paper, we propose Agentic Memory (AgeMem), a unified framework that integrates LTM and STM management directly into the agent's policy. AgeMem exposes memory operations as tool-based actions, enabling the LLM agent to autonomously decide what and when to store, retrieve, update, summarize, or discard information. To train such unified behaviors, we propose a three-stage progressive reinforcement learning strategy and design a step-wise GRPO to address sparse and discontinuous rewards induced by memory operations. Experiments on five long-horizon benchmarks demonstrate that AgeMem consistently outperforms strong memory-augmented baselines across multiple LLM backbones, achieving improved task performance, higher-quality long-term memory, and more efficient context usage.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-05T08:24:16Z</published>
+    <arxiv:comment>ACL'26 SAC Highlight. The code is available at https://github.com/y1y5/AgeMem</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yi Yu</name>
+    </author>
+    <author>
+      <name>Liuyi Yao</name>
+    </author>
+    <author>
+      <name>Yuexiang Xie</name>
+    </author>
+    <author>
+      <name>Qingquan Tan</name>
+    </author>
+    <author>
+      <name>Jiaqi Feng</name>
+    </author>
+    <author>
+      <name>Yaliang Li</name>
+    </author>
+    <author>
+      <name>Libing Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07262v3</id>
+    <title>ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution</title>
+    <updated>2026-04-23T09:34:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.07262v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07262v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the advancement of vision-language models, web automation has made significant progress. However, deploying autonomous agents in real-world settings remains challenging, primarily due to site heterogeneity, where generalist models lack domain-specific priors for diverse interfaces, and long-horizon instability, characterized by the accumulation of decision drift over extended interactions. To address these challenges, we introduce ColorBrowserAgent (Complex Long-Horizon Browser Agent), a knowledge-evolving agent for robust web automation. Our approach addresses these challenges through two synergistic mechanisms: human-in-the-loop knowledge adaptation that transforms sparse human feedback into reusable domain knowledge, and knowledge-aligned progressive summarization that stabilizes long interactions through memory compression. Extensive experiments on WebArena, WebChoreArena and industrial deployment show that ColorBrowserAgent consistently outperforms strong baselines. It achieves a state-of-the-art success rate of 71.2% on WebArena and maintains 47.4% performance under zero-shot transfer setting on WebChoreArena. In commercial deployment, it improves user satisfaction by 19.3% relatively, verifying its robustness in real-world scenarios.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T07:08:42Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Jihong Wang</name>
+    </author>
+    <author>
+      <name>Jiamu Zhou</name>
+    </author>
+    <author>
+      <name>Weiming Zhang</name>
+    </author>
+    <author>
+      <name>Teng Wang</name>
+    </author>
+    <author>
+      <name>Weiwen Liu</name>
+    </author>
+    <author>
+      <name>Zhuosheng Zhang</name>
+    </author>
+    <author>
+      <name>Xingyu Lou</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+    <author>
+      <name>Huarong Deng</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.14169v2</id>
+    <title>BOOKMARKS: Efficient Active Storyline Memory for Role-playing</title>
+    <updated>2026-09-26T21:12:51Z</updated>
+    <link href="https://arxiv.org/abs/2605.14169v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.14169v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory systems are critical for role-playing agents (RPAs) to maintain long-horizon consistency. However, existing RPA memory methods (e.g., profiling) mainly rely on incremental summarization, whose compression discards details which become inaccessible to subsequent grounding. To address this issue, we propose a search-based memory framework called \textbf{\underline{BOOKMARKS}} for \textbf{active grounding}, which retains access to the full preceding storyline and collects task-relevant information on demand. Since summarizing the preceding storyline anew for each grounding request incurs substantial redundant computation, BOOKMARKS introduces \textbf{passive updating} to reuse earlier search results as checkpoints. Each \textbf{bookmark} represents the \textbf{content} about a particular aspect (\textbf{section}) of story information at a specific synchronization \textbf{point}. For current task, BOOKMARKS searches for only useful contents, reuses existing semantically equivalent bookmarks or initializes new ones, and synchronizes the selected ones from their stored checkpoints to the current scene. A reused bookmark thus only needs to process the newly observed storyline suffix, avoiding repeated synchronization. We evaluate BOOKMARKS across six narrative artifacts involving 47 characters and 9,537 test cases against non-active grounding baselines, covering next-action prediction and challenging, human-authored reasoning questions from a mystery game. BOOKMARKS improves next-action fidelity in a five-dimensional evaluation (emotion, intent, causality, position, and content) and raises mystery-game reasoning accuracy from 39.44\% to 45.42\% over the strongest baseline.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-13T22:48:24Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Letian Peng</name>
+    </author>
+    <author>
+      <name>Ziche Liu</name>
+    </author>
+    <author>
+      <name>Yiming Huang</name>
+    </author>
+    <author>
+      <name>Longfei Yun</name>
+    </author>
+    <author>
+      <name>Kun Zhou</name>
+    </author>
+    <author>
+      <name>Yupeng Hou</name>
+    </author>
+    <author>
+      <name>Jingbo Shang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29640v3</id>
+    <title>VikingMem: A Memory Base Management System for Stateful LLM-based Applications</title>
+    <updated>2026-06-12T09:51:27Z</updated>
+    <link href="https://arxiv.org/abs/2605.29640v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29640v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models have revolutionized interactive applications; however, their finite context windows pose a critical data management challenge for maintaining stateful, long-term interactions. Existing memory approaches often rely on simplistic extraction methods that lead to incomplete memories or use rigid, single-purpose memory extraction prompts tailored to a single use case, such as chatbots. Consequently, they lack generalizability and perform poorly across diverse downstream tasks. To bridge this gap, we introduce the Memory Base, a novel data management paradigm for managing the persistent state of long-term interactions. It is characterized by three core principles: selective extraction of high-value memories from raw information streams; inherent statefulness and evolution, where memory content is progressively summarized, corrected, and temporally weighted to prioritize recent interactions; and a generalizable abstraction paradigm designed for robust transferability across diverse applications, including education, recommendation, and agent memory. Building on this foundation, we present VikingMem, an end-to-end Memory Base Management System implemented on the VikingDB vector engine. VikingMem materializes this paradigm through interconnected event and entity abstractions. It features event-centric memory extraction to selectively handle complex information streams, while entities are dynamically updated by events to achieve stateful evolution. Using temporal compression via a topic-wise timeline and time-weighted recall, the system progressively produces high-level summary memories, prioritizes recent items, and compresses and fades older ones. Extensive evaluations on long-term memory benchmarks demonstrate that VikingMem outperformes baselines by up to 30% in memory retrieval effectiveness while maintaining the low latency essential for interactive applications.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T09:07:42Z</published>
+    <arxiv:comment>Accepted by VLDB26</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiajie Fu</name>
+    </author>
+    <author>
+      <name>Junwen Chen</name>
+    </author>
+    <author>
+      <name>Mengzhao Wang</name>
+    </author>
+    <author>
+      <name>Aoxiang He</name>
+    </author>
+    <author>
+      <name>Maojia Sheng</name>
+    </author>
+    <author>
+      <name>Xiangyu Ke</name>
+    </author>
+    <author>
+      <name>Yifan Zhu</name>
+    </author>
+    <author>
+      <name>Yunjun Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.30159v1</id>
+    <title>Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents</title>
+    <updated>2026-05-28T16:17:19Z</updated>
+    <link href="https://arxiv.org/abs/2605.30159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.30159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-augmented LLM agents tackle complex long-horizon tasks by recursively summarizing interaction trajectories into compact memory. However, existing approaches typically train these memory policies using outcome-based reinforcement learning, failing to localize where intermediate memory quality degrades. As interactions unfold, ambiguous recursive summaries progressively discard task-relevant information and introduce semantic noise. This exacerbates belief deviation, obscuring the agent's estimate of the latent task state and ultimately derailing long-horizon reasoning. We therefore argue that memory optimization should focus not merely on trajectory-level success, but on the clarity of the belief induced by intermediate summaries. To this end, we introduce Belief Entropy, a self-supervised proxy that probes how uncertain the model remains about the latent task state given its current memory. Based on this proxy, we propose Metacognitive Memory Policy Optimization (MMPO). Instead of relying only on sparse outcome-based signals, MMPO provides fine-grained, memory-specific supervision via explicitly penalizing summaries that induce high epistemic uncertainty. Experiments show that MMPO consistently outperforms existing methods on diverse long-horizon tasks, maintaining 97.1% performance even when scaled to 1.75M-token contexts.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T16:17:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ziyan Liu</name>
+    </author>
+    <author>
+      <name>Zhezheng Hao</name>
+    </author>
+    <author>
+      <name>Yeqiu Chen</name>
+    </author>
+    <author>
+      <name>Hong Wang</name>
+    </author>
+    <author>
+      <name>Jingren Hou</name>
+    </author>
+    <author>
+      <name>Ruiyi Ding</name>
+    </author>
+    <author>
+      <name>Yongkang Yang</name>
+    </author>
+    <author>
+      <name>Wence Ji</name>
+    </author>
+    <author>
+      <name>Wei Xia</name>
+    </author>
+    <author>
+      <name>Feng Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.14047v1</id>
+    <title>Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling</title>
+    <updated>2026-06-12T02:48:45Z</updated>
+    <link href="https://arxiv.org/abs/2606.14047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.14047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-context language modeling requires not only extending context windows but maintaining coherent understanding of entity states and relationships across thousands of tokens -- a challenge that semantic similarity alone cannot address. KGERMAR addresses this by constructing dynamic, context-specific knowledge graphs from input text during inference, enabling domain-adaptive retrieval that leverages both semantic similarity and explicit entity relationships. The framework performs real-time entity and relation extraction to build contextual knowledge graphs, then integrates graph-structural embeddings with textual semantics through a multi-component memory architecture. Three memory banks -- contextual, semantic, and structural -- are maintained with retrieval signals fused via learned weights to capture both surface-level semantics and deeper relational patterns. Evaluated on SlimPajama (84.7K training examples), WikiText-103 (4,358 examples), PG-19 (100 examples), and Proof-pile (46.3K examples), KGERMAR achieves up to 8.5\% lower perplexity and 2--2.5x better memory efficiency than memory-augmented baselines across context lengths from 1K to 32K tokens, with superior in-context learning performance across five NLU tasks. The dynamic knowledge graph construction approach advances memory-augmented language modeling by enabling domain-specific knowledge representation that adapts to input contexts rather than relying on fixed knowledge bases.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-12T02:48:45Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Ghadir Alselwi</name>
+    </author>
+    <author>
+      <name>Basem Suleiman</name>
+    </author>
+    <author>
+      <name>Hao Xue</name>
+    </author>
+    <author>
+      <name>Shoaib Jameel</name>
+    </author>
+    <author>
+      <name>Hakim Hacid</name>
+    </author>
+    <author>
+      <name>Flora D. Salim</name>
+    </author>
+    <author>
+      <name>Imran Razzak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19005v1</id>
+    <title>Sumi: Open Uniform Diffusion Language Model from Scratch</title>
+    <updated>2026-06-17T12:32:46Z</updated>
+    <link href="https://arxiv.org/abs/2606.19005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion models have become a promising alternative to autoregressive models. Among these, uniform diffusion language models (UDLMs) permit any token to be updated at any step, in principle enabling more flexible generation. However, no UDLM has yet been pretrained from scratch at both large parameter scale and large token budget. Both autoregressive modeling and masked diffusion modeling already have capable models at scale that the community can study and build on; uniform diffusion has none. A scratch-pretrained UDLM at scale would provide a clean reference point for studying scaling behavior, generation dynamics, controllability, and trade-offs against established autoregressive and masked diffusion models. To this end, we introduce Sumi ("ink" in Japanese), a fully open 7B uniform diffusion language model pretrained from scratch on 1.5T tokens. Sumi performs competitively with autoregressive models trained at comparable token budgets on knowledge, reasoning, and coding benchmarks, while under-performing on commonsense benchmarks, where our education-heavy data mixture is a likely contributor. We release our model weights, checkpoints, and full training recipe, including a complete specification of the data mixture over publicly available corpora. We hope this release enables the community to study native uniform diffusion at scale and catalyzes work on its as-yet poorly understood aspects.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-17T12:32:46Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mengyu Ye</name>
+    </author>
+    <author>
+      <name>Keito Kudo</name>
+    </author>
+    <author>
+      <name>Wataru Ikeda</name>
+    </author>
+    <author>
+      <name>Ryosuke Matsuda</name>
+    </author>
+    <author>
+      <name>Keisuke Sakaguchi</name>
+    </author>
+    <author>
+      <name>Jun Suzuki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.11216v2</id>
+    <title>AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research</title>
+    <updated>2026-08-16T01:00:16Z</updated>
+    <link href="https://arxiv.org/abs/2608.11216v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.11216v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a setting in which the improvement direction is not specified in advance, unlike the engineering-to-spec tasks that dominate current agent benchmarks. We introduce AutoWorldModel-Bench, a closed-loop benchmark in which frontier coding agents autonomously improve a provided base world model under a fixed compute budget. The benchmark spans eight game environments under a unified structured-state representation--ground-truth entity state extracted from each game and consumed through a shared tensor format--which isolates dynamics modeling from perception and enables minutes-per-run iteration. Across 64 sessions, Codex-5.4 and Claude Opus 4.6 improve their base on a held-out test split in all but one session, with about half (33 of 64) a substantial gain ($Δ\geq +0.10$) and the remaining improvements smaller but positive; in 91% of sessions the winning edit is a substantive change to the model or training rather than a hyperparameter tweak. Our benchmark offers a setting in which frontier coding agents can be evaluated on open-ended research rather than engineering-to-spec problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-20T23:35:45Z</published>
+    <arxiv:comment>Project page: https://electronicarts.github.io/AutoWorldModelBench/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Marjan Moodi</name>
+    </author>
+    <author>
+      <name>Xuankang Zhu</name>
+    </author>
+    <author>
+      <name>Fernando De Mesentier Silva</name>
+    </author>
+    <author>
+      <name>Harold Chaput</name>
+    </author>
+    <author>
+      <name>Mohammad Reza Taesiri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.19038v1</id>
+    <title>FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling</title>
+    <updated>2026-07-21T12:28:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.19038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.19038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Translating novels into films poses a grand challenge for generative artificial intelligence, requiring conversion of abstract literary prose into long-form, multi-scene visual narratives. While current video generation models excel at short, single-scene clips within narrow temporal and spatial contexts, novel-to-film generation operates in a more complex regime, demanding long-duration content across diverse scenes with dynamically evolving entity states. To address this, we formalize novel-to-film generation as dynamic cinematic world modeling, decomposed into two phases: construction, which grounds abstract, underspecified literary narratives into concrete, stateful, and persistent world entities; and evolution, which governs how these entities dynamically update under plot progression to maintain causal consistency across scenes. We propose FilmWorld, an end-to-end agentic system where two groups of specialized agents collaborate to instantiate these phases. Construction-side agents perform narrative structured translation, world entity state modeling with visual anchoring, and state-driven shot planning, progressively projecting literary language into a cinematic blueprint. Evolution-side agents perform state-anchored visual generation, cross-shot dynamic state propagation, and closed-loop state verification to maintain causal consistency and visual coherence. To address the evaluation gap in long-form generation, we introduce FilmEval, a systematic evaluation framework that couples a difficulty-graded benchmark of 15 representative novels with an automated protocol of nine objective metrics spanning three dimensions: cinematic presentation, film consistency, and novel fidelity. Experiments demonstrate that FilmWorld consistently outperforms state-of-the-art video generation agent systems, with particularly pronounced improvements in narrative fidelity and cross-scene consistency.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-21T12:28:58Z</published>
+    <arxiv:comment>Project Page: https://filmworld-ai.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jialong Zuo</name>
+    </author>
+    <author>
+      <name>Haotong Zuo</name>
+    </author>
+    <author>
+      <name>Shiwei Zhang</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>Chen Li</name>
+    </author>
+    <author>
+      <name>Nong Sang</name>
+    </author>
+    <author>
+      <name>Changxin Gao</name>
+    </author>
+    <author>
+      <name>Xiang Bai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10540v2</id>
+    <title>Programmable World Model</title>
+    <updated>2026-10-13T14:53:20Z</updated>
+    <link href="https://arxiv.org/abs/2609.10540v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10540v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions into executable programs that specify entity states and state-transition rules, enabling direct control over individual entities and their interactions. A lightweight engine executes these programs to update and maintain an explicit, persistent global world state, including off-screen entities and non-visual attributes. To connect world state with visual generation, we introduce state-augmented 3D oriented bounding boxes (OBBs) as an intermediate representation. This representation, together with the target camera trajectory, is deterministically compiled into pixel-aligned spatiotemporal conditioning signals for a pretrained video model serving as the generative renderer. This design allows users to create playable games with predefined mechanics, direct control over individual entities, and persistent world state throughout gameplay. We further introduce CombatStateBench, a benchmark for evaluating programmable world models. On CombatStateBench, our method achieves 94% Count Accuracy and 98% State Accuracy, substantially outperforming existing interactive video world models while supporting coherent long-horizon generation. These results demonstrate the effectiveness of separating explicit state evolution from generative rendering for building persistent, programmable worlds.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T17:59:32Z</published>
+    <arxiv:comment>Homepage: https://alaya-lab.github.io/pwm GitHub: https://github.com/AlayaLab/pwm</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zheng-Hui Huang</name>
+    </author>
+    <author>
+      <name>Guixu Lin</name>
+    </author>
+    <author>
+      <name>Jiacheng Lin</name>
+    </author>
+    <author>
+      <name>Yi-Chuan Huang</name>
+    </author>
+    <author>
+      <name>Ruihan Yu</name>
+    </author>
+    <author>
+      <name>Muyao Niu</name>
+    </author>
+    <author>
+      <name>Siqi Yang</name>
+    </author>
+    <author>
+      <name>Yu-Lun Liu</name>
+    </author>
+    <author>
+      <name>Yung-Yu Chuang</name>
+    </author>
+    <author>
+      <name>Kaipeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhixiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.33518v2</id>
+    <title>SceneScaffold: Active Scene-State Construction for Unified 3D Scene Understanding</title>
+    <updated>2026-11-03T07:43:58Z</updated>
+    <link href="https://arxiv.org/abs/2609.33518v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.33518v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent 3D large multimodal models (3D-LMMs) rely on a visual bottleneck to compress complex 3D scene evidence into a limited number of visual tokens compatible with large language models (LLMs). Current visual bottlenecks, however, often passively compress heterogeneous 3D evidence into a homogeneous object-centric token sequence, leaving the spatial organization of the scene under-represented. This under-representation forces the LLM to recover spatial relations from a flattened token sequence, leading to unstable reasoning in relation-intensive and spatially ambiguous scenes. To address this issue, we propose SceneScaffold, an active scene-state construction framework for unified 3D scene understanding. SceneScaffold reformulates the visual bottleneck from a passive feature compressor into an active scene organizer, constructing a role-aware spatial scaffold before language reasoning. Specifically, SceneScaffold organizes superpoint-level visual evidence into scene-state components with distinct structural roles: entity states preserve core object semantics, scene-frame states maintain spatial references via boundary and region anchors, relation states encode object-environment interaction cues, and a global summary provides compact context. Through this role-aware construction, SceneScaffold provides the LLM with a spatially organized scene representation before language reasoning. Experiments on unified 3D scene understanding tasks, including 3D visual grounding, question answering, and dense captioning, demonstrate the effectiveness of SceneScaffold, while diagnostic results further show its applicability to relation-intensive and spatially ambiguous cases. Code is available at https://github.com/lixiangqi707/SceneScaffold.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-27T12:39:53Z</published>
+    <arxiv:comment>Accepted by NeurIPS 2026 (Spotlight)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiangqi Li</name>
+    </author>
+    <author>
+      <name>Libo Huang</name>
+    </author>
+    <author>
+      <name>Jiarui Zhao</name>
+    </author>
+    <author>
+      <name>Weilun Feng</name>
+    </author>
+    <author>
+      <name>Chuanguang Yang</name>
+    </author>
+    <author>
+      <name>Zhulin An</name>
+    </author>
+    <author>
+      <name>Yongjun Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.07996v1</id>
+    <title>SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments</title>
+    <updated>2026-11-05T13:24:57Z</updated>
+    <link href="https://arxiv.org/abs/2611.07996v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.07996v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates entity states, resolves local interactions, and builds observations inside each $\mathrm{env.step}$. This path can dominate latency in interaction-intensive workloads after policy batching. Existing vectorized environment interfaces and general event-driven runtimes do not directly address the fine-grained cross-entity work inside one bounded MARL step while preserving the step-level semantics expected by learning systems. We present SEER (Scalable Event-Driven Environment Runtime), a runtime for MARL environment execution under an explicit event-locality contract. SEER models each environment step as a bounded stream of timestamped events. If direct state updates are entity-local and cross-entity effects are represented as ordered future events, SEER can run independent events in parallel while preserving serial-equivalent boundary outputs. To make this contract practical, SEER uses a CAS-based dual-layer event queue: local event queues preserve per-entity causal order, while a parallel executive list exposes ready work to global worker threads. SEER further uses STPA, a preflight-guided thread-pool selection mechanism that combines short runtime traces with static workload and hardware features. We evaluate SEER on two parameterized MARL workloads: compute-intensive UAV swarm control (Aircraft) and communication-intensive wireless management (PCS). On Aircraft, SEER reduces inference latency by 16.2\% over the baseline. On PCS, SEER reduces environment-execution latency by 46.9\%, 19.5\%, and 64.9\% over ROSS-T, NBSE, and ROOT-Sim, respectively.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T13:24:57Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Jiming Su</name>
+    </author>
+    <author>
+      <name>Feng Zhu</name>
+    </author>
+    <author>
+      <name>Yuhao Xiao</name>
+    </author>
+    <author>
+      <name>Miao Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.23950v1</id>
+    <title>VOL-Agent: Programming Your Film via Video Orchestration Language Agentic System</title>
+    <updated>2026-11-18T06:39:30Z</updated>
+    <link href="https://arxiv.org/abs/2611.23950v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.23950v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent video foundation models generate high-quality and limited-length clips, but orchestrating them into minute-level, story-coherent films remains an open problem. Existing video agents highly rely on natural-language planning or predefined workflows, which make their production hard to program, customize, and extend. Therefore, we introduce VOL-Agent, a programmable video agent built on a Video Orchestration Language (VOL). With static compilation and verification, followed by runtime dynamic loading, VOL-Agent decouples structural reliability from execution flexibility. Through the skill-driven executor, VOL-Agent dynamically resolves tools and skills from an open-world repository and supports user-defined skills in natural language. Moreover, VOL-Agent is capable of crafting new director skills from learned knowledge and improves itself through feedback to accumulate filmmaking knowledge. To overcome the disconnect between different segments, we apply a structural memory mechanism to record and recall world and entity states, sustaining entity and scene consistency across different shots. Critic feedback supports local revision, while reusable filmmaking knowledge and experiences can be retained for subsequent tasks. Experiments on three benchmarks show that VOL-Agent generates minute-scale videos with strong overall quality and limited cost.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-18T06:39:30Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hongji Yang</name>
+    </author>
+    <author>
+      <name>Yucheng Zhou</name>
+    </author>
+    <author>
+      <name>Lingting Zhu</name>
+    </author>
+    <author>
+      <name>Shengju Qian</name>
+    </author>
+    <author>
+      <name>Xinye Li</name>
+    </author>
+    <author>
+      <name>Huan Zheng</name>
+    </author>
+    <author>
+      <name>Dongyue Lu</name>
+    </author>
+    <author>
+      <name>Wei Chow</name>
+    </author>
+    <author>
+      <name>Xin Wang</name>
+    </author>
+    <author>
+      <name>Cheng-zhong Xu</name>
+    </author>
+    <author>
+      <name>Jianbing Shen</name>
+    </author>
+  </entry>
+</feed>
